@@ -48,7 +48,7 @@
    "clg visit",
    "college visit",
    "college campus visit",
-   "how can i visit college",
+   " ",
    "when can i visit college",
    "when can i visit campus"
   ]
@@ -64,6 +64,46 @@
    "locations of college"
   ]
  },
+ {
+   "intent": "principal",
+   "questions": [
+    "principal of college",
+    "college principal",
+    "clg principal",
+    "principal",
+    "who is principal of college"
+   ]
+  },
+  {
+   "intent": "principal_msg",
+   "questions": [
+    "message of principal of college",
+    "college principal message",
+    "clg principal message",
+    "principal message",
+    "what is message of principal of college"
+   ]
+  },
+  {
+   "intent": "president",
+   "questions": [
+    "president of college",
+    "college president",
+    "clg president",
+    "president",
+    "who is president of college"
+   ]
+  },
+  {
+   "intent": "president_msg",
+   "questions": [
+    "message of president of college",
+    "college president message",
+    "clg president message",
+    "president message",
+    "what is message of president of college"
+   ]
+  },  
  {
   "intent": "visit_hours",
   "questions": [
@@ -99,6 +139,45 @@
    "engineering"
   ]
  },
+ {
+    "intent": "undergraduate",
+    "questions": [
+        "ug",
+     "courses",
+     "course",
+     "course offered",
+     "course in college",
+     "which courses are available for ug",
+     "available courses for ug",
+     "undergraduate"
+    ]
+   },
+   {
+    "intent": "postgraduate",
+    "questions": [
+     "pg",   
+     "courses",
+     "course",
+     "course offered",
+     "course in college",
+     "which courses are available for pg",
+     "available courses",
+     "postgraduate"
+    ]
+   },
+   {
+    "intent": "basic_science",
+    "questions": [
+        "basic science",
+     "courses",
+     "course",
+     "course offered",
+     "course in college",
+     "which courses are available for basic science",
+     "available courses for basic science",
+     "basic science"
+    ]
+   },
  {
   "intent": "computer_engineering",
   "questions": [
@@ -492,7 +571,10 @@
    "admission enquiry",
    "admission date",
    "admission last date",
-   "admission time"
+   "admission time",
+   "cse admission",
+   "fees of cse",
+   "What is fees of cse"
   ]
  },
  {

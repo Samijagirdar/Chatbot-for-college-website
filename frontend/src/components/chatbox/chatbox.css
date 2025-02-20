@@ -1,8 +1,7 @@
 .chat-box-container {
     position: absolute;
-    bottom: 10%;
     right: 10%;
-    height: 550px;
+    height: 50px;
     width: 400px;
     background-color: whitesmoke;
     border-radius: 15px;

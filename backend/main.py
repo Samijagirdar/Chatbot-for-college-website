@@ -9,3 +9,9 @@ if __name__ == "__main__" and testing:
     runner.run(interpreter_test.get_suite())
 else: 
     run_app()
+
+# ✅ Train the chatbot model
+v2c.initialize(s2v)
+
+# ✅ Evaluate model after training
+v2c.evaluate_model(s2v)

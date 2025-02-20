@@ -31,8 +31,8 @@
        "tag": "admission_enquiry"
       },
       {
-       "text": "Scholorship",
-       "tag": "scholorship"
+       "text": "Prinicipal",
+       "tag": "principal"
       }
      ]
     },
@@ -50,7 +50,7 @@
       "clg inform"
      ],
      "response": [
-      "Jawahar Education Society's Institute of Technology,Management & Research (JIT,Nashik) was established in 2012 under the state of maharashtra education & recognized by University Grants Commission (UGC). For more details please choose from below options."
+      "BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology, Vijayapura, Karnataka, is among the top engineering colleges in the state. Spanning 14.9 acres, it is AICTE-approved, NBA-accredited, and affiliated with VTU. Offers UG & PG programs in various engineering disciplines, along with MBA & MCA. Known for academic excellence and industry relevance.For more details, please choose from the below options."
      ],
      "related": [
       {
@@ -123,7 +123,7 @@
       "locations of college"
      ],
      "response": [
-      "The address of JIT is: Jawahar Education Society\u00e2\u20ac\u2122s,Institute of Technology, Management & Research, Survey No 48, Gowardhan, Gangapur Road, Nashik - 422 222. Maharashtra, India"
+      "The address of BLDEA's V.P. Dr. P.G. Halakatti College of Engineering and Technology is: Ashram Road, Vijayapura-586101, Karnataka, India"
      ],
      "related": []
     },
@@ -135,7 +135,7 @@
       "time of visit"
      ],
      "response": [
-      "You can visit us between 9 AM to 2 PM from MONDAY to SATURDAY."
+      "You can visit us from Monday to Friday between 9 AM and 5 PM, and on Saturday from 9 AM to 1 PM."
      ],
      "related": []
     },
@@ -154,7 +154,7 @@
       "number"
      ],
      "response": [
-      "You can contact us on: 0253 2970077, 0253 2970078 , 9022025101 , Email us on: jitnashik2012@gmail.com, principaljitnashik@rediffmail.com"
+      "You can contact us on - Phone: 08352-261120, Fax: 08352-262945, Email: principal@bldeacet.ac.in, Web: bldeacet.ac.in"
      ],
      "related": []
     },
@@ -170,11 +170,11 @@
       "engineering"
      ],
      "response": [
-      "We provide below mentioned courses. Please select one to know more."
+      "We provide below 3 categories. Please select one to know more."
      ],
      "related": [
       {
-       "text": "Computer Engineering",
+       "text": "Computer Science and Engineering",
        "tag": "computer_engineering"
       },
       {
