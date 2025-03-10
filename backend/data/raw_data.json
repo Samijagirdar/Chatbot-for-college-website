@@ -1280,7 +1280,51 @@
                 "related": []
             },
             {
-            "tag": "no_intent",
+                "tag": "college_timing",
+                "questions": [
+                    "what is the time of college",
+                    "what is college timing",
+                    "college timing",
+                    "what are the college timings?",
+                    "college timing?",
+                    "what time does the college start?",
+                    "when does the college open?",
+                    "when does the college close?",
+                    "working hours of the college?",
+                    "what are the working hours?",
+                    "what are the class timings?",
+                    "when do classes start?",
+                    "when do classes end?",
+                    "what is the daily schedule of the college?",
+                    "college schedule?",
+                    "opening and closing time of college?",
+                    "college hours?",
+                    "how long is the college open?",
+                    "what time should students arrive?",
+                    "by what time should students report?",
+                    "at what time does the college gate open?",
+                    "what is the office working time?",
+                    "college office timings?",
+                    "library opening hours?",
+                    "is the college open on weekends?",
+                    "is the college open on Sundays?",
+                    "is the college open on Saturdays?",
+                    "what are the lab hours?",
+                    "does the college operate in shifts?",
+                    "when is the lunch break in college?",
+                    "what are the break timings?",
+                    "do class timings change on exam days?"
+                ],
+                "response": [
+                    "The regular college hours are from *9:00 AM to 5:00 PM, Monday to Friday* and 9:00 AM to 1:00 PM on Saturday. The college remains closed on Sundays and public holidays.",
+                    "BLDEACET operates from *9:00 AM to 5:00 PM* with a lunch break from *1:00 PM to 2:00 PM. Office hours are from **9:30 AM to 4:30 PM*.",
+                    "Classes start at *9:00 AM* and end at *5:00 PM. The library is open from **9:00 AM to 7:00 PM*, and labs follow scheduled hours as per department requirements.",
+                    "The administrative office functions from *9:30 AM to 4:30 PM, while classes are conducted from **9:00 AM to 5:00 PM*. Please refer to the department schedule for lab timings."
+                ],
+                "related":[]
+            },
+            {
+            "tag": "no_indent",
     "questions": [
         "qwerty",
         "abcd",

@@ -480,7 +480,16 @@
   ]
  },
  {
-  "intent": "no_intent",
+  "intent": "college_timing",
+  "responses": [
+   "The regular college hours are from *9:00 AM to 5:00 PM, Monday to Friday* and 9:00 AM to 1:00 PM on Saturday. The college remains closed on Sundays and public holidays.",
+   "BLDEACET operates from *9:00 AM to 5:00 PM* with a lunch break from *1:00 PM to 2:00 PM. Office hours are from **9:30 AM to 4:30 PM*.",
+   "Classes start at *9:00 AM* and end at *5:00 PM. The library is open from **9:00 AM to 7:00 PM*, and labs follow scheduled hours as per department requirements.",
+   "The administrative office functions from *9:30 AM to 4:30 PM, while classes are conducted from **9:00 AM to 5:00 PM*. Please refer to the department schedule for lab timings."
+  ]
+ },
+ {
+  "intent": "no_indent",
   "responses": [
    "\ud83e\udd16 Sorry, I couldn't understand your request. Please visit our official website for more details: [BLDEACET Website](https://www.bldeacet.ac.in).",
    "I'm not sure what you're asking. You can explore more about BLDEACET here: [BLDEACET Official Website](https://www.bldeacet.ac.in).",

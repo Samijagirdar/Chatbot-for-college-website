@@ -7,9 +7,9 @@ from app.spelling_fix import correct_spelling
 import uvicorn
 import random
 
-__interpreter = Interpreter.load_interpreter("new_stem")
+__interpreter = Interpreter.load_interpreter("default_stem")
 __interpreter.parse("hello")
-__app = FastAPI(title="JITBOT", description="A College Enquiry Chat bot of JIT College Nashik")
+__app = FastAPI(title="JITBOT", description="A College Enquiry Chat bot of BLDEA")
 
 origins = [
     "http://localhost",
@@ -28,9 +28,15 @@ __app.add_middleware(
 @__app.get("/query/{q}")
 async def query(q: str):
     reply = {}
-    q = correct_spelling(q)
+    print(f"🔍 Received Query (from frontend): {q}")  # Debugging
+    q = correct_spelling(q).lower().strip()  # Normalize input
+    print(f"✅ Processed Query (after correction): {q}")  # Debugging
+
+    reply = {}
     try:
         klass = __interpreter.parse(q)
+        print(f"🎯 Predicted Intent: {klass}")  # Debugging
+        
         response = ""
         for res in data.responses:
             if res["intent"] == klass:
@@ -38,11 +44,13 @@ async def query(q: str):
                 if res["intent"] == "welcomegreeting":
                     response = get_updated_string(response)
                 break
+
         related = []
         for rel in data.related:
             if rel["intent"] == klass:
                 related = rel["related"]
                 break
+
         reply = {
             "status": 200,
             "message": response,
@@ -55,6 +63,7 @@ async def query(q: str):
         }
     finally:
         return reply
+
 
 @__app.get("/direct/{klass}")
 async def direct(klass: str):
