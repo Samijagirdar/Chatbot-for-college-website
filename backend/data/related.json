@@ -8,7 +8,7 @@
    },
    {
     "text": "Contact",
-    "tag": "contact"
+    "tag": "contact_information"
    },
    {
     "text": "Course",
@@ -29,24 +29,6 @@
   ]
  },
  {
-    "intent": "principal",
-    "related": [
-     {
-      "text": "Principal Message",
-      "tag": "principal_msg"
-     }
-    ]
- },
- {
-    "intent": "president",
-    "related": [
-     {
-      "text": "President Message",
-      "tag": "president_msg"
-     }
-    ]
- },
- {
   "intent": "about_college",
   "related": [
    {
@@ -64,182 +46,381 @@
   ]
  },
  {
-  "intent": "campus_visit",
+  "intent": "principal",
   "related": [
    {
-    "text": "Address",
-    "tag": "address"
-   },
-   {
-    "text": "Visit Hours",
-    "tag": "visit_hours"
+    "text": "Principal Message",
+    "tag": "principal_message"
    }
   ]
  },
  {
-  "intent": "course",
+  "intent": "president",
   "related": [
-    {
-        "text": "UG",
-        "tag": "undergraduate"
-    },
-    {
-        "text": "PG",
-        "tag": "postgraduate"
-    },
-    {
-        "text": "Basic Science",
-        "tag": "basic_science"
-    }
+   {
+    "text": "President Message",
+    "tag": "president_message"
+   }
   ]
  },
  {
-    "intent": "undergraduate",
-    "related": [
-        {
-            "text": "Architecture",
-            "tag": "architecture"
-           },
-           {
-            "text": "CSE(Artificial Intelligence & Machine Learning)",
-            "tag": "aiml"
-           },
-           {
-            "text": "Computer Science & Engineering",
-            "tag": "computer_engineering"
-           },
-        {
-            "text": "Computer Science & Engineering(Data Science)",
-            "tag": "DS"
-           },
-           {
-            "text": "Mechanical Engineering",
-            "tag": "mechanical_engineering"
-           },
-           {
-            "text": "Civil Engineering",
-            "tag": "civil_engineering"
-           },
-           {
-            "text": "Electrical & Electronics Engineering",
-            "tag": "electrical_engineering"
-           },
-           {
-            "text": "Electronics & Communications Engineering",
-            "tag": "enc"
-           },
-           {
-            "text": "Information Science & Engineering",
-            "tag": "ise"
-           }
-    ]
+  "intent": "courses",
+  "related": [
+   {
+    "text": "Undergraduate Programs",
+    "tag": "undergraduate_programs"
    },
    {
-    "intent": "postgraduate",
-    "related": [
-        {
-            "text": "Architecture",
-            "tag": "architecture"
-           },
-           {
-            "text": "CSE(Artificial Intelligence & Machine Learning)",
-            "tag": "aiml"
-           },
-           {
-            "text": "Computer Science & Engineering",
-            "tag": "computer_engineering"
-           },
-        {
-            "text": "Computer Science & Engineering(Data Science)",
-            "tag": "DS"
-           },
-           {
-            "text": "Mechanical Engineering",
-            "tag": "mechanical_engineering"
-           },
-           {
-            "text": "Civil Engineering",
-            "tag": "civil_engineering"
-           },
-           {
-            "text": "Electrical & Electronics Engineering",
-            "tag": "electrical_engineering"
-           },
-           {
-            "text": "Electronics & Communications Engineering",
-            "tag": "enc"
-           },
-           {
-            "text": "Information Science & Engineering",
-            "tag": "ise"
-           }
-    ]
+    "text": "Postgraduate Programs",
+    "tag": "postgraduate_programs"
    },
- {
-    "intent": "no_indent",
-    "related": [
-        {
-            "text": "About College",
-            "tag": "about_college"
-        },
-        {
-            "text": "Contact",
-            "tag": "contact"
-        },
-        {
-            "text": "Course",
-            "tag": "course"
-        },
-        {
-            "text": "Admission Enquiry",
-            "tag": "admission_enquiry"
-        },
-        {
-            "text": "Scholorship",
-            "tag": "scholorship"
-        }
-    ]
+   {
+    "text": "Basic Science Departments",
+    "tag": "basic_science_departments"
+   }
+  ]
  },
  {
-    "intent": "computer_engineering",
-    "related": [
-        {
-            "text": "About Department",
-            "tag": "about_cse"
-        },
-        {
-            "text": "Head of Department",
-            "tag": "hod_cse"
-        },
-        {
-            "text": "Others",
-            "tag": "other_cse"
-        },
-        {
-            "text": "Admission Enquiry",
-            "tag": "admission_enquiry"
-        }
-    ]
+  "intent": "undergraduate_programs",
+  "related": [
+   {
+    "text": "Architecture",
+    "tag": "architecture"
+   },
+   {
+    "text": "Civil Engineering",
+    "tag": "civil_engineering"
+   },
+   {
+    "text": "Computer Science & Engineering",
+    "tag": "cse"
+   },
+   {
+    "text": "CSE (AI & ML)",
+    "tag": "cse_ai_ml"
+   },
+   {
+    "text": "CSE (Data Science)",
+    "tag": "cse_data_science"
+   },
+   {
+    "text": "Electronics & Communication Engineering",
+    "tag": "ece"
+   },
+   {
+    "text": "Electrical & Electronics Engineering",
+    "tag": "eee"
+   },
+   {
+    "text": "Information Science & Engineering",
+    "tag": "ise"
+   },
+   {
+    "text": "Mechanical Engineering",
+    "tag": "mechanical_engineering"
+   }
+  ]
  },
  {
-    "intent": "aiml",
-    "related": [
-        {
-            "text": "About Department",
-            "tag": "about_aiml"
-        },
-        {
-            "text": "Head of Department",
-            "tag": "hod_aiml"
-        },
-        {
-            "text": "Others",
-            "tag": "other_aiml"
-        },
-        {
-            "text": "Admission Enquiry",
-            "tag": "admission_enquiry"
-        }
-    ]
+  "intent": "postgraduate_programs",
+  "related": [
+   {
+    "text": "Master of Computer Applications (MCA)",
+    "tag": "mca"
+   },
+   {
+    "text": "Master of Business Administration (MBA)",
+    "tag": "mba"
+   },
+   {
+    "text": "M.Tech in Computer Science & Engineering",
+    "tag": "mtech_cse"
+   },
+   {
+    "text": "M.Tech in Digital Communication and Networking",
+    "tag": "mtech_dcn"
+   },
+   {
+    "text": "M.Tech in Microelectronics & Control System",
+    "tag": "mtech_me"
+   },
+   {
+    "text": "M.Tech in Structural Engineering",
+    "tag": "mtech_se"
+   },
+   {
+    "text": "M.Tech in Machine Design",
+    "tag": "mtech_md"
+   },
+   {
+    "text": "M.Tech in Environmental Engineering",
+    "tag": "mtech_ee"
+   }
+  ]
+ },
+ {
+  "intent": "basic_science_departments",
+  "related": [
+   {
+    "text": "Chemistry",
+    "tag": "chemistry"
+   },
+   {
+    "text": "Mathematics",
+    "tag": "mathematics"
+   },
+   {
+    "text": "Physics",
+    "tag": "physics"
+   }
+  ]
+ },
+ {
+  "intent": "cse",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "cse_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "cse_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "cse_hod"
+   }
+  ]
+ },
+ {
+  "intent": "mechanical_engineering",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "mechanical_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "mechanical_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "mechanical_hod"
+   }
+  ]
+ },
+ {
+  "intent": "architecture",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "architecture_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "architecture_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "architecture_hod"
+   }
+  ]
+ },
+ {
+  "intent": "civil_engineering",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "civil_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "civil_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "civil_hod"
+   }
+  ]
+ },
+ {
+  "intent": "cse_ai_ml",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "cse_ai_ml_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "cse_ai_ml_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "cse_ai_ml_hod"
+   }
+  ]
+ },
+ {
+  "intent": "cse_data_science",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "cse_data_science_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "cse_data_science_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "cse_data_science_hod"
+   }
+  ]
+ },
+ {
+  "intent": "ece",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "ece_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "ece_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "ece_hod"
+   }
+  ]
+ },
+ {
+  "intent": "eee",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "eee_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "eee_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "eee_hod"
+   }
+  ]
+ },
+ {
+  "intent": "ise",
+  "related": [
+   {
+    "text": "Department Faculty",
+    "tag": "ise_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "ise_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "ise_hod"
+   }
+  ]
+ },
+ {
+  "intent": "mtech",
+  "related": [
+   {
+    "text": "M.Tech Civil Engineering",
+    "tag": "mtech_civil"
+   },
+   {
+    "text": "M.Tech Computer Science",
+    "tag": "mtech_cse"
+   },
+   {
+    "text": "M.Tech Digital Communication",
+    "tag": "mtech_digital_comm"
+   },
+   {
+    "text": "M.Tech Structural Engineering",
+    "tag": "mtech_structural"
+   },
+   {
+    "text": "Department Faculty",
+    "tag": "pg_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "pg_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "pg_hod"
+   }
+  ]
+ },
+ {
+  "intent": "basic_science",
+  "related": [
+   {
+    "text": "Mathematics Department",
+    "tag": "maths_department"
+   },
+   {
+    "text": "Physics Department",
+    "tag": "physics_department"
+   },
+   {
+    "text": "Chemistry Department",
+    "tag": "chemistry_department"
+   },
+   {
+    "text": "Humanities Department",
+    "tag": "humanities_department"
+   },
+   {
+    "text": "Department Faculty",
+    "tag": "basic_science_faculty"
+   },
+   {
+    "text": "Department Laboratories",
+    "tag": "basic_science_laboratories"
+   },
+   {
+    "text": "Head of Department (HOD)",
+    "tag": "basic_science_hod"
+   }
+  ]
+ },
+ {
+  "intent": "no_intent",
+  "related": [
+   {
+    "text": "About College",
+    "tag": "about_college"
+   },
+   {
+    "text": "Contact",
+    "tag": "contact_information"
+   },
+   {
+    "text": "Courses Offered",
+    "tag": "courses"
+   },
+   {
+    "text": "Admission Enquiry",
+    "tag": "admission_enquiry"
+   },
+   {
+    "text": "Principal",
+    "tag": "principal"
+   },
+   {
+    "text": "President",
+    "tag": "president"
+   }
+  ]
  }
 ]

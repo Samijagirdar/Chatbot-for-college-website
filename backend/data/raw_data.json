@@ -1,1030 +1,1331 @@
 [
     {
-     "tag": "welcomegreeting",
-     "questions": [
-      "hii",
-      "hi",
-      "hello",
-      "helo",
-      "help",
-      "please",
-      "guide me"
-     ],
-     "response": [
-      "Hello, Kindly choose from one of the following to get started."
-     ],
-     "related": [
-      {
-       "text": "About College",
-       "tag": "about_college"
-      },
-      {
-       "text": "Contact",
-       "tag": "contact"
-      },
-      {
-       "text": "Course",
-       "tag": "course"
-      },
-      {
-       "text": "Admission Enquiry",
-       "tag": "admission_enquiry"
-      },
-      {
-       "text": "Prinicipal",
-       "tag": "principal"
-      }
-     ]
+        "tag": "welcomegreeting",
+        "questions": [
+            "hi",
+            "hello",
+            "hey",
+            "hii",
+            "helo",
+            "good morning",
+            "good afternoon",
+            "good evening",
+            "help",
+            "please help",
+            "can you guide me",
+            "i need info",
+            "assist me",
+            "need guidance"
+        ],
+        "response": [
+            "Hello! How can I assist you today? Please choose from the following options to get started."
+        ],
+        "related": [
+            {
+                "text": "About College",
+                "tag": "about_college"
+            },
+            {
+                "text": "Contact",
+                "tag": "contact_information"
+            },
+            {
+                "text": "Course",
+                "tag": "course"
+            },
+            {
+                "text": "Admission Enquiry",
+                "tag": "admission_enquiry"
+            },
+            {
+                "text": "Principal",
+                "tag": "principal"
+            },
+            {
+                "text": "President",
+                "tag": "president"
+            }
+        ]
     },
     {
-     "tag": "about_college",
-     "questions": [
-      "about college",
-      "about",
-      "college",
-      "about clg",
-      "how is college",
-      "college information",
-      "college info",
-      "clg info",
-      "clg inform"
-     ],
-     "response": [
-      "BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology, Vijayapura, Karnataka, is among the top engineering colleges in the state. Spanning 14.9 acres, it is AICTE-approved, NBA-accredited, and affiliated with VTU. Offers UG & PG programs in various engineering disciplines, along with MBA & MCA. Known for academic excellence and industry relevance.For more details, please choose from the below options."
-     ],
-     "related": [
-      {
-       "text": "Student Strength",
-       "tag": "student_strength"
-      },
-      {
-       "text": "Address",
-       "tag": "address"
-      },
-      {
-       "text": "Campus visit",
-       "tag": "campus_visit"
-      }
-     ]
+        "tag": "about_college",
+        "questions": [
+            "about college",
+            "tell me about the college",
+            "give me details", 
+            "college overview",
+            "history of BLDEACET",
+            "is BLDEACET a good college",
+            "rankings", 
+            "why choose BLDEACET",
+            "campus life at BLDEACET",
+            "about",
+            "college",
+            "about clg",
+            "how is college",
+            "college information",
+            "college info",
+            "clg info",
+            "clg inform"
+        ],
+        "response": [
+            "BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology, Vijayapura, Karnataka, is among the top engineering colleges in the state. Spanning 14.9 acres, it is AICTE-approved, NBA-accredited, and affiliated with VTU. It offers UG & PG programs in various engineering disciplines, along with MBA & MCA. Known for academic excellence and industry relevance. For more details, please choose from the below options."
+        ],
+        "related": [
+            {
+                "text": "Student Strength",
+                "tag": "student_strength"
+            },
+            {
+                "text": "Address",
+                "tag": "address"
+            },
+            {
+                "text": "Campus visit",
+                "tag": "campus_visit"
+            }
+        ]
     },
     {
-     "tag": "student_strength",
-     "questions": [
-      "strength of students",
-      "number of students in college",
-      "strength of college",
-      "strength of students in college",
-      "how many students are there in college",
-      "total students",
-      "total strength",
-      "total student",
-      "tatal"
-     ],
-     "response": [
-      "We have 800+ students studying with us."
-     ],
-     "related": []
+        "tag": "student_strength",
+        "questions": [
+            "strength",
+            "student strength", 
+            "how many students are there",
+            "student count",
+            "total enrollment",
+            "yearly intake",
+            "strength of students",
+            "number of students in college",
+            "strength of college",
+            "how many students are there in college",
+            "total students",
+            "total strength"
+        ],
+        "response": [
+            "BLDEACET has a vibrant student community with over 2,500 undergraduates and 300 postgraduates students pursuing industry-relevant programs. The campus promotes technical excellence and holistic development."
+        ],
+        "related": []
     },
     {
-     "tag": "campus_visit",
-     "questions": [
-      "campus",
-      "campus visit",
-      "visit",
-      "clg visit",
-      "college visit",
-      "college campus visit",
-      "how can i visit college",
-      "when can i visit college",
-      "when can i visit campus"
-     ],
-     "response": [
-      "To visit the campus you can proceed by choosing further below options."
-     ],
-     "related": [
-      {
-       "text": "Address",
-       "tag": "address"
-      },
-      {
-       "text": "Visit Hours",
-       "tag": "visit_hours"
-      }
-     ]
+        "tag": "address",
+        "questions": [
+            "address",
+            "where is BLDEACET",
+            "how to reach BLDEACET", 
+            "BLDEACET location",
+            "pin code of BLDEACET",
+            "address of college",
+            "college address",
+            "clg address",
+            "college location",
+            "location",
+            "locations of college"
+        ],
+        "response": [
+            "BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology is located at Ashram Road, Vijayapura-586101, Karnataka, India."
+        ],
+        "related": []
     },
     {
-     "tag": "address",
-     "questions": [
-      "address of college",
-      "college address",
-      "clg address",
-      "college location",
-      "location",
-      "locations of college"
-     ],
-     "response": [
-      "The address of BLDEA's V.P. Dr. P.G. Halakatti College of Engineering and Technology is: Ashram Road, Vijayapura-586101, Karnataka, India"
-     ],
-     "related": []
+        "tag": "contact_information",
+        "questions": [
+            "contact",
+            "how to contact BLDEACET", 
+            "helpline number",
+            "official contact details",
+            "who to contact for admission",
+            "contact details",
+            "college phone number",
+            "email address",
+            "how to reach college"
+        ],
+        "response": [
+            "You can reach us at: \n Phone: 08352-261120 \n Email: principal@bldeacet.ac.in \n Website: bldeacet.ac.in"
+        ],
+        "related": []
     },
     {
-     "tag": "visit_hours",
-     "questions": [
-      "visiting time",
-      "visit hours",
-      "time of visit"
-     ],
-     "response": [
-      "You can visit us from Monday to Friday between 9 AM and 5 PM, and on Saturday from 9 AM to 1 PM."
-     ],
-     "related": []
+        "tag": "principal",
+        "questions": [
+            "principal",
+            "principle",
+            "principal of college",
+            "principle of college",
+            "who is the principal",
+            "principal of BLDEACET",
+            "college head",
+            "academic head of college",
+            "who is the principal of the college",
+            "college principal",
+            "principal of BLDEACET"
+        ],
+        "response": [
+            "Dr. V. G. Sangam is the Principal of BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology, Vijayapura, Karnataka, India."
+        ],
+        "related": [
+            {
+                "text": "Principal Message",
+                "tag": "principal_message"
+            }
+        ]
     },
     {
-     "tag": "contact",
-     "questions": [
-      "contact",
-      "contact number",
-      "number",
-      "college number",
-      "phone number",
-      "college phone number",
-      "how to contact",
-      "contact college",
-      "contact clg",
-      "number"
-     ],
-     "response": [
-      "You can contact us on - Phone: 08352-261120, Fax: 08352-262945, Email: principal@bldeacet.ac.in, Web: bldeacet.ac.in"
-     ],
-     "related": []
+        "tag": "president",
+        "questions": [
+            "president",
+            "president of college",
+            "who is the president of the college",
+            "college president",
+            "president of BLDEACET",
+            "who is the president", 
+            "president of BLDEACET", 
+            "name of president", 
+            "college authority head", 
+            "BLDE Association head"
+        ],
+        "response": [
+            "Dr. M.B. Patil is the President of BLDE Association, which manages BLDEA's V.P. Dr. P.G. Halakatti College of Engineering & Technology."
+        ],
+        "related": [
+            {
+                "text": "President Message",
+                "tag": "president_message"
+            }
+        ]
     },
     {
-     "tag": "course",
-     "questions": [
-      "courses",
-      "course",
-      "course offered",
-      "course in college",
-      "which courses are available",
-      "available courses",
-      "engineering"
-     ],
-     "response": [
-      "We provide below 3 categories. Please select one to know more."
-     ],
-     "related": [
-      {
-       "text": "Computer Science and Engineering",
-       "tag": "computer_engineering"
-      },
-      {
-       "text": "Mechanical Engineering",
-       "tag": "mechanical_engineering"
-      },
-      {
-       "text": "Civil Engineering",
-       "tag": "civil_engineering"
-      },
-      {
-       "text": "Electrical Engineering",
-       "tag": "electrical_engineering"
-      },
-      {
-       "text": "AI&DS",
-       "tag": "ai&ds"
-      }
-     ]
+        "tag": "placements",
+        "questions": [
+            "placement statistics",
+            "campus recruitment",
+            "placement record",
+            "which companies visit for placements",
+            "placement details", 
+            "does BLDEACET provide placements",
+            "top recruiters", 
+            "highest package", 
+            "placement percentage", 
+            "internship opportunities"
+        ],
+        "response": [
+            "BLDEACET has an excellent placement record, with the highest package reaching 24 LPA. The Training & Placement Cell works closely with top recruiters, including TCS, Infosys, Wipro, Capgemini and many more tech giants. The industry-oriented education model ensures students are well-prepared for professional careers."
+        ],
+        "related": []
     },
     {
-     "tag": "computer_engineering",
-     "questions": [
-      "computer engineering",
-      "computer engg",
-      "computer"
-     ],
-     "response": [
-      "What do you want to know about Computer engineering? Please choose further to know."
-     ],
-     "related": [
-      {
-       "text": "Intake",
-       "tag": "computer_intake"
-      },
-      {
-       "text": "Fee Structure",
-       "tag": "computer_fee"
-      },
-      {
-       "text": "Eligibility Criteria",
-       "tag": "computer_criteria"
-      },
-      {
-       "text": "Course Duration",
-       "tag": "computer_duration"
-      },
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
+        "tag": "research",
+        "questions": [
+            "research opportunities",
+            "ongoing research projects",
+            "funded research programs"
+        ],
+        "response": [
+            "BLDEACET promotes research through funded projects, industry collaborations, and innovation hubs. Our faculty and students actively participate in cutting-edge research in engineering and technology."
+        ],
+        "related": []
     },
     {
-     "tag": "computer_intake",
-     "questions": [
-      "computer intake",
-      "computer engineering intake",
-      "computer seats",
-      "seats in computer"
-     ],
-     "response": [
-      "Please select one from below options"
-     ],
-     "related": [
-      {
-       "text": "FE",
-       "tag": "computer_first"
-      },
-      {
-       "text": "DSY",
-       "tag": "computer_dsy"
-      }
-     ]
+        "tag": "library",
+        "questions": [
+            "library",
+            "library facilities",
+            "books available",
+            "digital library",
+            "library details", 
+            "is there a library", 
+            "library membership", 
+            "library timings", 
+            "can I borrow books"
+        ],
+        "response": [
+            "BLDEACET's library houses a vast collection of books, journals, e-resources, and research papers. It provides digital access, reference services, and quiet study areas for students and faculty."
+        ],
+        "related": []
     },
     {
-     "tag": "computer_first",
-     "questions": [
-      "computer first year",
-      "FE computer",
-      "computer FE",
-      "computer engineering first year"
-     ],
-     "response": [
-      "JIT has intake of 120 students for First Year"
-     ],
-     "related": []
+        "tag": "hostel",
+        "questions": [
+            "hostel",
+            "hostel facilities",
+            "student accommodation",
+            "is there hostel for students",
+            "is hostel available", 
+            "hostel fees", 
+            "hostel rules", 
+            "hostel accommodation", 
+            "hostel food", 
+            "is hostel mandatory", 
+            "wifi in hostel"
+        ],
+        "response": [
+            "We provide separate hostel facilities for boys and girls with modern amenities, round-the-clock security, hygienic food, and Wi-Fi connectivity."
+        ],
+        "related": []
     },
     {
-     "tag": "computer_dsy",
-     "questions": [
-      "computer dsy",
-      "dsy computer"
-     ],
-     "response": [
-      "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
-     ],
-     "related": []
+        "tag": "sports",
+        "questions": [
+            "sports activities",
+            "games in college",
+            "does BLDEACET have sports facilities",
+            "sports facilities", 
+            "which games are available", 
+            "is there a gym", 
+            "indoor sports",
+            "outdoor sports", 
+            "basketball court", 
+            "cricket ground", 
+            "badminton court"
+        ],
+        "response": [
+            "BLDEACET encourages students to participate in various sports activities, including cricket, football, basketball, volleyball, badminton, and indoor games."
+        ],
+        "related": []
     },
     {
-     "tag": "computer_fee",
-     "questions": [
-      "computer fee",
-      "fee of computer engineering",
-      "fee for computer engg",
-      "computer engg fee",
-      "open fee",
-      "OBC fee",
-      "sc fee",
-      "st fee"
-     ],
-     "response": [
-      "Select a category to know the fee"
-     ],
-     "related": [
-      {
-       "text": "OPEN",
-       "tag": "open_fee"
-      },
-      {
-       "text": "OBC",
-       "tag": "obc_fee"
-      },
-      {
-       "text": "SC/ST",
-       "tag": "scst_fee"
-      }
-     ]
+        "tag": "events",
+        "questions": [
+            "college events",
+            "upcoming seminars",
+            "technical fests",
+            "cultural events",
+            "annual function", 
+            "competitions in college", 
+            "workshops in BLDEACET"
+        ],
+        "response": [
+            "The college hosts numerous events, including technical fests, cultural programs, and industry workshops. Stay updated by checking our Events page."
+        ],
+        "related": []
     },
     {
-     "tag": "open_fee",
-     "questions": [
-      "Open fees",
-      "fees of open category",
-      "open category fee",
-      "open fee"
-     ],
-     "response": [
-      "Fee for an OPEN category student is : RS 72000 (Excluding university exam fee)"
-     ],
-     "related": []
+        "tag": "admission_enquiry",
+        "questions": [
+            "admission",
+            "admission criteria",
+            "admssion enquiry",
+            "admission process", 
+            "how to apply", 
+            "eligibility for admission", 
+            "last date for admission", 
+            "documents required", 
+            "entrance exam", 
+            "direct admission", 
+            "admission fees"
+        ],
+        "response": [
+            "For information on the admission process, eligibility criteria, important dates, and required documents, please visit our [Admission Page](https://www.bldeacet.ac.in/admissions/). You can also contact us at 08352-261120 or email principal@bldeacet.ac.in for personalized assistance."
+        ],
+        "related": []
     },
     {
-     "tag": "obc_fee",
-     "questions": [
-      "obc fees",
-      "obc fee",
-      "fee of obc category",
-      "obc category fees"
-     ],
-     "response": [
-      "Fee for an OBC category student is : RS 55000 (Excluding university exam fee)"
-     ],
-     "related": []
+        "tag": "fees",
+        "questions": [
+            "fees structure", 
+            "tuition fees", 
+            "how much is the college fee", 
+            "hostel fee", 
+            "exam fees", 
+            "semester fee", 
+            "scholarship for fees",
+            "college fees",
+            "fees"
+        ],
+        "response": [
+            "Detailed information about the fee structure for various courses is available on our Admissions Page. For specific queries, please contact the admissions office at 08352-261120 or email principal@bldeacet.ac.in."
+        ],
+        "related": []
     },
     {
-     "tag": "scst_fee",
-     "questions": [
-      "scst fees",
-      "sc fee",
-      "st fee",
-      "sc fees",
-      "st fees",
-      "fees of sc st caste",
-      "fee of sc caste",
-      "fee of st caste"
-     ],
-     "response": [
-      "Fee for a SC/ST category student is RS ABC (Excluding university exam fee)"
-     ],
-     "related": []
+        "tag": "scholarship",
+        "questions": [
+            "scholarship details", 
+            "financial aid", 
+            "government scholarships", 
+            "private scholarships", 
+            "eligibility for scholarships", 
+            "how to apply for scholarship",
+            "scholarship",
+            "scholarship options"
+        ],
+        "response": [
+            "BLDEACET offers various scholarships and financial aid options. Details about eligibility criteria and application procedures can be found on our Admissions Page. For further assistance, contact the admissions office at 08352-261120 or email principal@bldeacet.ac.in."
+        ],
+        "related": []
     },
     {
-     "tag": "computer_criteria",
-     "questions": [
-      "Eligibility criteria",
-      "computer eligibility criteria",
-      "admisssion criteria",
-      "minimum marks for admission",
-      "minimum marks required",
-      "eligibility criteria"
-     ],
-     "response": [
-      "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
-     ],
-     "related": []
+        "tag": "faculty",
+        "questions": [
+            "faculty list", 
+            "who are the professors", 
+            "teaching experience", 
+            "departments and faculty", 
+            "professor qualifications", 
+            "how many teachers in BLDEACET",
+            "teachers",
+            "professors"
+        ],
+        "response": [
+            "BLDEACET boasts a highly qualified and dedicated faculty team across various departments. Detailed profiles and qualifications of our faculty members can be accessed on our Faculty Page"
+        ],
+        "related": []
     },
     {
-     "tag": "computer_duration",
-     "questions": [
-      "computer duration",
-      "computer engineering duration",
-      "computer engg duration"
-     ],
-     "response": [
-      "The duration for the Engineering offered at JIT is 4 years."
-     ],
-     "related": [
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
+        "tag": "transportation",
+        "questions": [
+            "transportation facilities", 
+            "bus facility for students", 
+            "college bus routes", 
+            "nearest railway station", 
+            "how to travel to BLDEACET",
+            "bus",
+            "college bus",
+            "auto",
+            "train",
+            "travel"
+        ],
+        "response": [
+            "BLDEACET offers transportation facilities for students and staff. Details about bus routes and schedules are available on our Facilities Page."
+        ],
+        "related": []
     },
     {
-     "tag": "mechanical_engineering",
-     "questions": [
-      "mechanical engineering",
-      "mechanical engg",
-      "mechanical"
-     ],
-     "response": [
-      "What do you want to know about Mechanical engineering? Please choose further to know."
-     ],
-     "related": [
-      {
-       "text": "Intake",
-       "tag": "mechanical_intake"
-      },
-      {
-       "text": "Fee Structure",
-       "tag": "mechanical_fee"
-      },
-      {
-       "text": "Eligibility Criteria",
-       "tag": "mechanical_criteria"
-      },
-      {
-       "text": "Course Duration",
-       "tag": "mechanical_duration"
-      },
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
+        "tag": "canteen",
+        "questions": [
+            "canteen",
+            "canteen facilities", 
+            "is there a cafeteria", 
+            "what food is available", 
+            "canteen timings", 
+            "is outside food allowed", 
+            "canteen cleanliness"
+        ],
+        "response": [
+            "Our canteen provides a variety of hygienic and nutritious food options catering to diverse tastes. It's a popular spot for students to relax and socialize"
+        ],
+        "related": []
     },
     {
-     "tag": "mechanical_intake",
-     "questions": [
-      "mechanical intake",
-      "mechanical engineering intake",
-      "mechanical seats",
-      "seats in mechanical"
-     ],
-     "response": [
-      "Please select one from below options"
-     ],
-     "related": [
-      {
-       "text": "FE",
-       "tag": "mechanical_first"
-      },
-      {
-       "text": "DSY",
-       "tag": "mechanical_dsy"
-      }
-     ]
+        "tag": "internships",
+        "questions": [
+            "internships",
+            "internship opportunities", 
+            "does BLDEACET offer internships", 
+            "internship support", 
+            "eligibility for internships", 
+            "how to apply for internships"
+        ],
+        "response": [
+            "BLDEACET offers internship opportunities in collaboration with various industries to enhance practical learning and employability."
+        ],
+        "related": []
     },
     {
-     "tag": "mechanical_first",
-     "questions": [
-      "mechanical first year",
-      "FE mechanical",
-      "mechanical FE",
-      "mechanical engineering first year"
-     ],
-     "response": [
-      "JIT has intake of 120 students for First Year"
-     ],
-     "related": []
+        "tag": "exam_schedule",
+        "questions": [
+            "exam schedule", 
+            "exam dates", 
+            "when are exams", 
+            "semester exams", 
+            "exam timetable", 
+            "final exams"
+        ],
+        "response": [
+            "Exam schedules are released prior to the examination period and can be accessed on our Academics Page."
+        ],
+        "related": []
     },
-    {
-     "tag": "mechanical_dsy",
-     "questions": [
-      "mechanical dsy",
-      "dsy mechanical"
-     ],
-     "response": [
-      "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
-     ],
-     "related": []
-    },
-    {
-     "tag": "mechanical_fee",
-     "questions": [
-      "mechanical fee",
-      "fee of mechanical engineering",
-      "fee for mechanical engg",
-      "mechanical engg fee",
-      "open fee",
-      "OBC fee",
-      "sc fee",
-      "st fee"
-     ],
-     "response": [
-      "Select a category to know the fee"
-     ],
-     "related": [
-      {
-       "text": "OPEN",
-       "tag": "open_fee"
-      },
-      {
-       "text": "OBC",
-       "tag": "obc_fee"
-      },
-      {
-       "text": "SC/ST",
-       "tag": "scst_fee"
-      }
-     ]
-    },
-    {
-     "tag": "mechanical_criteria",
-     "questions": [
-      "Eligibility criteria",
-      "mechanical eligibility criteria",
-      "admisssion criteria",
-      "minimum marks for admission",
-      "minimum marks required",
-      "eligibility criteria"
-     ],
-     "response": [
-      "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
-     ],
-     "related": []
-    },
-    {
-     "tag": "mechanical_duration",
-     "questions": [
-      "mechanical duration",
-      "mechanical engineering duration",
-      "mechanical engg duration"
-     ],
-     "response": [
-      "The duration for the Engineering offered at JIT is 4 years."
-     ],
-     "related": [
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "civil_engineering",
-     "questions": [
-      "civil engineering",
-      "civil engg",
-      "civil"
-     ],
-     "response": [
-      "What do you want to know about Civil engineering? Please choose further to know."
-     ],
-     "related": [
-      {
-       "text": "Intake",
-       "tag": "civil_intake"
-      },
-      {
-       "text": "Fee Structure",
-       "tag": "civil_fee"
-      },
-      {
-       "text": "Eligibility Criteria",
-       "tag": "civil_criteria"
-      },
-      {
-       "text": "Course Duration",
-       "tag": "civil_duration"
-      },
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "civil_intake",
-     "questions": [
-      "civil intake",
-      "civil engineering intake",
-      "civil seats",
-      "seats in civil"
-     ],
-     "response": [
-      "Please select one from below options"
-     ],
-     "related": [
-      {
-       "text": "FE",
-       "tag": "civil_first"
-      },
-      {
-       "text": "DSY",
-       "tag": "civil_dsy"
-      }
-     ]
-    },
-    {
-     "tag": "civil_first",
-     "questions": [
-      "civil first year",
-      "FE civil",
-      "civil FE",
-      "civil engineering first year"
-     ],
-     "response": [
-      "JIT has intake of 120 students for First Year"
-     ],
-     "related": []
-    },
-    {
-     "tag": "civil_dsy",
-     "questions": [
-      "civil dsy",
-      "dsy civil"
-     ],
-     "response": [
-      "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
-     ],
-     "related": []
-    },
-    {
-     "tag": "civil_fee",
-     "questions": [
-      "civil fee",
-      "fee of civil engineering",
-      "fee for civil engg",
-      "civil engg fee",
-      "open fee",
-      "OBC fee",
-      "sc fee",
-      "st fee"
-     ],
-     "response": [
-      "Select a category to know the fee"
-     ],
-     "related": [
-      {
-       "text": "OPEN",
-       "tag": "open_fee"
-      },
-      {
-       "text": "OBC",
-       "tag": "obc_fee"
-      },
-      {
-       "text": "SC/ST",
-       "tag": "scst_fee"
-      }
-     ]
-    },
-    {
-     "tag": "civil_criteria",
-     "questions": [
-      "Eligibility criteria",
-      "civil eligibility criteria",
-      "admisssion criteria",
-      "minimum marks for admission",
-      "minimum marks required",
-      "eligibility criteria"
-     ],
-     "response": [
-      "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
-     ],
-     "related": []
-    },
-    {
-     "tag": "civil_duration",
-     "questions": [
-      "civil duration",
-      "civil engineering duration",
-      "civil engg duration"
-     ],
-     "response": [
-      "The duration for the Engineering offered at JIT is 4 years."
-     ],
-     "related": [
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "electrical_engineering",
-     "questions": [
-      "electrical engineering",
-      "electrical engg",
-      "electrical"
-     ],
-     "response": [
-      "What do you want to know about Electrical engineering? Please choose further to know."
-     ],
-     "related": [
-      {
-       "text": "Intake",
-       "tag": "electrical_intake"
-      },
-      {
-       "text": "Fee Structure",
-       "tag": "electrical_fee"
-      },
-      {
-       "text": "Eligibility Criteria",
-       "tag": "electrical_criteria"
-      },
-      {
-       "text": "Course Duration",
-       "tag": "electrical_duration"
-      },
-      {
-       "text": "Admission",
-       "tag": "electrical_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "electrical_intake",
-     "questions": [
-      "electrical intake",
-      "electrical engineering intake",
-      "electrical seats",
-      "seats in electrical"
-     ],
-     "response": [
-      "Please select one from below options"
-     ],
-     "related": [
-      {
-       "text": "FE",
-       "tag": "electrical_first"
-      },
-      {
-       "text": "DSY",
-       "tag": "electrical_dsy"
-      }
-     ]
-    },
-    {
-     "tag": "electrical_first",
-     "questions": [
-      "electrical first year",
-      "FE electrical",
-      "electrical FE",
-      "electrical engineering first year"
-     ],
-     "response": [
-      "JIT has intake of 120 students for First Year"
-     ],
-     "related": []
-    },
-    {
-     "tag": "electrical_dsy",
-     "questions": [
-      "electrical dsy",
-      "dsy electrical"
-     ],
-     "response": [
-      "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
-     ],
-     "related": []
-    },
-    {
-     "tag": "electrical_fee",
-     "questions": [
-      "electrical fee",
-      "fee of electrical engineering",
-      "fee for electrical engg",
-      "electrical engg fee",
-      "open fee",
-      "OBC fee",
-      "sc fee",
-      "st fee"
-     ],
-     "response": [
-      "Select a category to know the fee"
-     ],
-     "related": [
-      {
-       "text": "OPEN",
-       "tag": "open_fee"
-      },
-      {
-       "text": "OBC",
-       "tag": "obc_fee"
-      },
-      {
-       "text": "SC/ST",
-       "tag": "scst_fee"
-      }
-     ]
-    },
-    {
-     "tag": "electrical_criteria",
-     "questions": [
-      "Eligibility criteria",
-      "electrical eligibility criteria",
-      "admisssion criteria",
-      "minimum marks for admission",
-      "minimum marks required",
-      "eligibility criteria"
-     ],
-     "response": [
-      "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
-     ],
-     "related": []
-    },
-    {
-     "tag": "electrical_duration",
-     "questions": [
-      "electrical duration",
-      "electrical engineering duration",
-      "electrical engg duration"
-     ],
-     "response": [
-      "The duration for the Engineering offered at JIT is 4 years."
-     ],
-     "related": [
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "ai&ds_engineering",
-     "questions": [
-      "ai&ds engineering",
-      "ai&ds engg",
-      "ai&ds",
-      "aids",
-      "ai",
-      "ds",
-      "artificial intelligence",
-      "data science",
-      "artificial intelligence and data science"
-     ],
-     "response": [
-      "What do you want to know about AI&DS? Please choose further to know."
-     ],
-     "related": [
-      {
-       "text": "Intake",
-       "tag": "ai&ds_intake"
-      },
-      {
-       "text": "Fee Structure",
-       "tag": "ai&ds_fee"
-      },
-      {
-       "text": "Eligibility Criteria",
-       "tag": "ai&ds_criteria"
-      },
-      {
-       "text": "Course Duration",
-       "tag": "ai&ds_duration"
-      },
-      {
-       "text": "Admission",
-       "tag": "ai&ds_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "ai&ds_intake",
-     "questions": [
-      "ai&ds intake",
-      "ai&ds engineering intake",
-      "ai&ds seats",
-      "seats in ai&ds",
-      "aids intake",
-      "aids engineering intake",
-      "aids seats",
-      "seats in aids",
-      "ai seats",
-      "ds seats",
-      "artificial intelligence seats",
-      "artificial intelligence intake",
-      "data science intake",
-      "data science seats",
-      "artificial intelligence and data science intake"
-     ],
-     "response": [
-      "Please select one from below options"
-     ],
-     "related": [
-      {
-       "text": "FE",
-       "tag": "ai&ds_first"
-      },
-      {
-       "text": "DSY",
-       "tag": "ai&ds_dsy"
-      }
-     ]
-    },
-    {
-     "tag": "ai&ds_first",
-     "questions": [
-      "ai&ds first year",
-      "FE ai&ds",
-      "ai&ds FE",
-      "ai&ds first year",
-      "aids first year",
-      "FE aids",
-      "aids FE",
-      "aids first year"
-     ],
-     "response": [
-      "JIT has intake of 120 students for First Year"
-     ],
-     "related": []
-    },
-    {
-     "tag": "ai&ds_dsy",
-     "questions": [
-      "ai&ds dsy",
-      "dsy ai&ds"
-     ],
-     "response": [
-      "JIT has intake of 20 students for DSY[NOTE: Intake number varies every academic year.]"
-     ],
-     "related": []
-    },
-    {
-     "tag": "ai&ds_fee",
-     "questions": [
-      "ai&ds fee",
-      "fee of ai&ds",
-      "fee for ai&ds",
-      "aids fee",
-      "fee of aids",
-      "fee for aids",
-      "aids fee",
-      "open fee",
-      "OBC fee",
-      "sc fee",
-      "st fee"
-     ],
-     "response": [
-      "Select a category to know the fee"
-     ],
-     "related": [
-      {
-       "text": "OPEN",
-       "tag": "open_fee"
-      },
-      {
-       "text": "OBC",
-       "tag": "obc_fee"
-      },
-      {
-       "text": "SC/ST",
-       "tag": "scst_fee"
-      }
-     ]
-    },
-    {
-     "tag": "ai&ds_criteria",
-     "questions": [
-      "Eligibility criteria",
-      "ai&ds eligibility criteria",
-      "aids eligibility criteria",
-      "admisssion criteria",
-      "minimum marks for admission",
-      "minimum marks required",
-      "eligibility criteria"
-     ],
-     "response": [
-      "The criteria for Engineering in JIT are as follows: A minimum aggregate of 50% or equivalent in 10+2.Compulsory Subjects: Physics & Mathematics; and anyone of the following: Chemistry, Computer Science. Minimum passing mark is essential in each of the subject."
-     ],
-     "related": []
-    },
-    {
-     "tag": "ai&ds_duration",
-     "questions": [
-      "ai&ds duration",
-      "ai&ds duration",
-      "ai&ds duration",
-      "aids duration",
-      "aids duration",
-      "aids duration"
-     ],
-     "response": [
-      "The duration for the Engineering offered at JIT is 4 years."
-     ],
-     "related": [
-      {
-       "text": "Admission",
-       "tag": "admission_enquiry"
-      }
-     ]
-    },
-    {
-     "tag": "admission_enquiry",
-     "questions": [
-      "admission",
-      "admission process",
-      "admission inquiry",
-      "admission enquiry",
-      "admission date",
-      "admission last date",
-      "admission time"
-     ],
-     "response": [
-      "Please follow the link for admission enquiry process- https://www.jitnashik.edu.in/admission.php"
-     ],
-     "related": []
-    },
-    {
-     "tag": "scholorship",
-     "questions": [
-      "scholorship",
-      "college scholorship",
-      "scholorship fees",
-      "scholorship date",
-      "scholorship form",
-      "scholorship contact",
-      "scholorship amount"
-     ],
-     "response": [
-      "The scholorship is provided to CAP enrolled students only. College follows the MAHADBT scholorships provided by government of maharashtra. Click on the link to know more: https://mahadbt.maharashtra.gov.in/"
-     ],
-     "related": []
-    },
-    {
-     "tag": "endgreeting",
-     "questions": [
-      "bye",
-      "by",
-      "byee"
-     ],
-     "response": [
-      "Goodbye! have a good day. Hope to see you again."
-     ],
-     "related": []
-    },
-    {
-     "tag": "thankgreet",
-     "questions": [
-      "thankyou",
-      "thanks",
-      "thank you"
-     ],
-     "response": [
-      "It's my pleasure to help you. See you soon."
-     ],
-     "related": []
+        {
+            "tag": "course_duration",
+            "questions": [
+                "duration",
+                "be how many year",
+                "mtech how many years",
+                "mba how many years",
+                "how many years",
+                "course duration", 
+                "how long is the course", 
+                "degree duration", 
+                "btech course duration", 
+                "postgraduate course duration"
+            ],
+            "response": [
+                "Undergraduate programs like B.Tech typically span 4 years, while postgraduate programs such as M.Tech, MBA, and MCA usually last 2 years. For more details, visit our [Academics Page](https://www.bldeacet.ac.in/academics/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "degree_certificate",
+            "questions": [
+                "degree",
+                "degree certificate", 
+                "when will I receive my degree", 
+                "how to apply for degree certificate", 
+                "duplicate degree request", 
+                "convocation ceremony details"
+            ],
+            "response": [
+                "Degree certificates are awarded during the convocation ceremony post successful completion of your program. For application procedures, duplicate degree requests, and convocation details, visit the [Examination Section](https://www.bldeacet.ac.in/examination-section/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "student_clubs",
+            "questions": [
+                "student clubs", 
+                "extracurricular activities", 
+                "does BLDEACET have clubs", 
+                "which student clubs are there", 
+                "can I join multiple clubs", 
+                "student societies"
+            ],
+            "response": [
+                "BLDEACET offers a variety of student clubs and societies promoting extracurricular activities. Students are encouraged to join multiple clubs based on their interests. For a comprehensive list and membership details, visit [Campus Life](https://www.bldeacet.ac.in/campus-life/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "ragging_policy",
+            "questions": [
+                "ragging",
+                "anti ragging",
+                "ragging policy", 
+                "is ragging allowed", 
+                "anti-ragging measures", 
+                "reporting ragging", 
+                "how to file a ragging complaint"
+            ],
+            "response": [
+                "BLDEACET maintains a strict anti-ragging policy as per UGC guidelines. Ragging is strictly prohibited, and stringent measures are in place to prevent it. To report incidents or file complaints, visit the [Anti-Ragging Cell](https://www.bldeacet.ac.in/anti-ragging-cell/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "medical_facilities",
+            "questions": [
+                "medical facilities",
+                "medical facilities in college", 
+                "is there a health center", 
+                "emergency medical services", 
+                "first aid available", 
+                "student health insurance"
+            ],
+            "response": [
+                "BLDEACET provides on-campus medical facilities, including a health center equipped for emergencies and first aid. For more information, refer to our [Facilities Page](https://www.bldeacet.ac.in/facilities/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "career_guidance",
+            "questions": [
+                "career guidance", 
+                "job assistance", 
+                "does the college provide career counseling", 
+                "how to get job support", 
+                "career mentorship programs"
+            ],
+            "response": [
+                "The Training & Placement Cell at BLDEACET offers career guidance, counseling, and mentorship programs to assist students in their professional development. For more details, visit [Placement Cell](https://www.bldeacet.ac.in/placements/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "study_material",
+            "questions": [
+                "study material", 
+                "where to get notes", 
+                "are there online lectures", 
+                "e-books for courses", 
+                "can I get previous year question papers"
+            ],
+            "response": [
+                "Students can access study materials, notes, e-books, and previous year question papers through the college library and digital resources. For access, visit the [Library Page](https://www.bldeacet.ac.in/library/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "grievance_redressal",
+            "questions": [
+                "grievance redressal", 
+                "how to file a complaint", 
+                "student grievances", 
+                "who to contact for complaints", 
+                "how does the grievance cell work"
+            ],
+            "response": [
+                "BLDEACET has a dedicated Grievance Redressal Cell to address student complaints and concerns. To file a grievance or understand the process, visit the [Grievance Redressal](https://www.bldeacet.ac.in/grievance-redressal/) page."
+            ],
+            "related": []
+        },
+        {
+            "tag": "lost_and_found",
+            "questions": [
+                "lost and found", 
+                "I lost something in college", 
+                "where to report lost items", 
+                "how to retrieve lost belongings", 
+                "what to do if I lose my ID card"
+            ],
+            "response": [
+                "For lost items, please report to the campus security office or the administrative office. They maintain a lost and found section to assist students in retrieving their belongings."
+            ],
+            "related": []
+        },
+        {
+            "tag": "principal_message",
+            "questions": [
+                "principal message",
+                "message from the principal",
+                "principal's address",
+                "note from the principal"
+            ],
+            "response": [
+                "On behalf of BLDEACET, I welcome all prospective students aiming to begin their careers with us and wish current students all the best in their future endeavors. Our college has been imparting state-of-the-art education with a focus on skill enhancement since its establishment in 1980. We aim to emerge as a globally renowned institute by excelling in academics and research activities. We continually improve our teaching and learning processes to transform our students into competent technocrats who can contribute to creating a better tomorrow. [Read more](https://www.bldeacet.ac.in/principal.php)"
+            ],
+            "related": []
+        },
+        {
+            "tag": "president_message",
+            "questions": [
+                "president message",
+                "message from the president",
+                "president's address",
+                "note from the president"
+            ],
+            "response": [
+                "Challenges bring out the best in us. In the face of growing challenges and competition, BLDEA strives to grow into a global educational organization. With a history of over 110 years, BLDEA has become a prestigious educational organization due to the tireless efforts of its visionary leaders. Our mission is to serve the less privileged and create a just and meaningful society. I am confident that we will emerge even stronger in the days to come and contribute even more significantly to transform the society around us. [Read more](https://www.bldeacet.ac.in/president.php)"
+            ],
+            "related": []
+        },
+        {
+            "tag": "courses",
+            "questions": [
+                "what courses are offered",
+                "list of courses",
+                "which courses are available",
+                "programs offered",
+                "engineering courses",
+                "courses at BLDEACET",
+                "what courses do you have"
+            ],
+            "response": [
+                "BLDEACET offers a wide range of programs. Please select from the following options:\n- Undergraduate Programs (UG)\n- Postgraduate Programs (PG)\n- Basic Science Departments"
+            ],
+            "related": [
+                {"text": "Undergraduate Programs", "tag": "undergraduate_programs"},
+                {"text": "Postgraduate Programs", "tag": "postgraduate_programs"},
+                {"text": "Basic Science Departments", "tag": "basic_science_departments"}
+            ]
+        },
+        {
+            "tag": "undergraduate_programs",
+            "questions": [
+                "undergraduate courses",
+                "UG programs",
+                "list of UG courses",
+                "bachelor's degree programs"
+            ],
+            "response": [
+                "BLDEACET offers the following undergraduate programs. Please choose a department:\n- Architecture\n- Civil Engineering\n- Computer Science & Engineering\n- CSE (Artificial Intelligence and Machine Learning)\n- CSE (Data Science)\n- Electronics & Communication Engineering\n- Electrical & Electronics Engineering\n- Information Science & Engineering\n- Mechanical Engineering"
+            ],
+            "related": [
+                {"text": "Architecture", "tag": "architecture"},
+                {"text": "Civil Engineering", "tag": "civil_engineering"},
+                {"text": "Computer Science & Engineering", "tag": "cse"},
+                {"text": "CSE (AI & ML)", "tag": "cse_ai_ml"},
+                {"text": "CSE (Data Science)", "tag": "cse_data_science"},
+                {"text": "Electronics & Communication Engineering", "tag": "ece"},
+                {"text": "Electrical & Electronics Engineering", "tag": "eee"},
+                {"text": "Information Science & Engineering", "tag": "ise"},
+                {"text": "Mechanical Engineering", "tag": "mechanical_engineering"}
+            ]
+        },
+        {
+            "tag": "postgraduate_programs",
+            "questions": [
+                "postgraduate courses",
+                "PG programs",
+                "list of PG courses",
+                "master's degree programs"
+            ],
+            "response": [
+                "BLDEACET offers the following postgraduate programs. Please choose a department:\n- Master of Computer Applications (MCA)\n- Master of Business Administration (MBA)\n- M.Tech in Computer Science & Engineering\n- M.Tech in Digital Communication and Networking\n- M.Tech in Microelectronics & Control System\n- M.Tech in Structural Engineering\n- M.Tech in Machine Design\n- M.Tech in Environmental Engineering"
+            ],
+            "related": [
+                {"text": "Master of Computer Applications (MCA)", "tag": "mca"},
+                {"text": "Master of Business Administration (MBA)", "tag": "mba"},
+                {"text": "M.Tech in Computer Science & Engineering", "tag": "mtech_cse"},
+                {"text": "M.Tech in Digital Communication and Networking", "tag": "mtech_dcn"},
+                {"text": "M.Tech in Microelectronics & Control System", "tag": "mtech_me"},
+                {"text": "M.Tech in Structural Engineering", "tag": "mtech_se"},
+                {"text": "M.Tech in Machine Design", "tag": "mtech_md"},
+                {"text": "M.Tech in Environmental Engineering", "tag": "mtech_ee"}
+            ]
+        },
+        {
+            "tag": "basic_science_departments",
+            "questions": [
+                "basic science departments",
+                "science courses",
+                "foundation courses",
+                "departments in basic sciences"
+            ],
+            "response": [
+                "The Basic Science departments lay the foundation for engineering education. Choose a department to learn more:\n- Chemistry\n- Mathematics\n- Physics"
+            ],
+            "related": [
+                {"text": "Chemistry", "tag": "chemistry"},
+                {"text": "Mathematics", "tag": "mathematics"},
+                {"text": "Physics", "tag": "physics"}
+            ]
+        },
+        {
+            "tag": "cse",
+            "questions": [
+                "computer science engineering",
+                "cse",
+                "computer engineering",
+                "about CSE department"
+            ],
+            "response": [
+                "The Computer Science & Engineering department focuses on imparting quality education in computing technologies, preparing students for industry challenges."
+            ],
+            "related": [
+                {"text": "Department Faculty", "tag": "cse_faculty"},
+                {"text": "Department Laboratories", "tag": "cse_laboratories"},
+                {"text": "Head of Department (HOD)", "tag": "cse_hod"}
+            ]
+        },
+        {
+            "tag": "cse_faculty",
+            "questions": [
+                "faculty of CSE",
+                "CSE department faculty",
+                "professors in CSE"
+            ],
+            "response": [
+                "Our faculty comprises experienced professors and lecturers dedicated to student success. For more details, visit the [Faculty Page](https://www.bldeacet.ac.in/faculty/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "cse_laboratories",
+            "questions": [
+                "labs in CSE",
+                "CSE department labs",
+                "facilities in CSE"
+            ],
+            "response": [
+                "State-of-the-art labs equipped with modern computing facilities support practical learning and research. View more at the [Lab Facilities Page](https://www.bldeacet.ac.in/laboratories/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "cse_hod",
+            "questions": [
+                "HOD of CSE",
+                "CSE department head",
+                "who is the CSE HOD"
+            ],
+            "response": [
+                "The Head of the Department (HOD) for CSE is Dr.Anil Kannur."
+            ],
+            "related": []
+        },
+        {
+            "tag": "mechanical_engineering",
+            "questions": [
+                "mechanical engineering",
+                "about mechanical department",
+                "mechanical course details"
+            ],
+            "response": [
+                "The Mechanical Engineering department provides students with practical and theoretical knowledge in mechanics, thermodynamics, and manufacturing."
+            ],
+            "related": [
+                {"text": "Department Faculty", "tag": "mechanical_faculty"},
+                {"text": "Department Laboratories", "tag": "mechanical_laboratories"},
+                {"text": "Head of Department (HOD)", "tag": "mechanical_hod"}
+            ]
+        },
+        {
+            "tag": "mechanical_faculty",
+            "questions": [
+                "faculty of Mechanical",
+                "Mechanical department faculty",
+                "professors in Mechanical"
+            ],
+            "response": [
+                "Our Mechanical Engineering faculty includes experienced professionals dedicated to innovation in design and manufacturing. View more details at the [Faculty Page](https://www.bldeacet.ac.in/faculty/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "mechanical_laboratories",
+            "questions": [
+                "labs in Mechanical",
+                "Mechanical department labs",
+                "facilities in Mechanical"
+            ],
+            "response": [
+                "The department has well-equipped laboratories for material testing, CAD modeling, and fluid mechanics experiments. Explore more at the [Lab Facilities Page](https://www.bldeacet.ac.in/laboratories/)."
+            ],
+            "related": []
+        },
+        {
+            "tag": "mechanical_hod",
+            "questions": [
+                "HOD of Mechanical",
+                "Mechanical department head",
+                "who is the Mechanical HOD"
+            ],
+            "response": [
+                "The Head of the Department (HOD) for Mechanical Engineering is Dr. R.N. Jeeragal"
+            ],
+            "related": []
+        },
+            {
+                "tag": "architecture",
+                "questions": [
+                    "architecture engineering",
+                    "about architecture department",
+                    "architecture course details"
+                ],
+                "response": [
+                    "The Architecture department at BLDEACET provides a creative and technical foundation in design, planning, and construction. The program aims to develop professionals in sustainable architecture and urban planning."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "architecture_faculty"},
+                    {"text": "Department Laboratories", "tag": "architecture_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "architecture_hod"}
+                ]
+            },
+            {
+                "tag": "civil_engineering",
+                "questions": [
+                    "civil engineering",
+                    "about civil department",
+                    "civil course details"
+                ],
+                "response": [
+                    "The Civil Engineering department focuses on infrastructure development, structural analysis, and sustainable construction techniques to prepare students for the evolving industry."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "civil_faculty"},
+                    {"text": "Department Laboratories", "tag": "civil_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "civil_hod"}
+                ]
+            },
+            {
+                "tag": "cse_ai_ml",
+                "questions": [
+                    "cse artificial intelligence",
+                    "AI & ML engineering",
+                    "about AI & ML department",
+                    "AI course details"
+                ],
+                "response": [
+                    "The CSE (Artificial Intelligence & Machine Learning) department is dedicated to AI-driven solutions, machine learning algorithms, and data science techniques, equipping students for the future of AI applications."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "cse_ai_ml_faculty"},
+                    {"text": "Department Laboratories", "tag": "cse_ai_ml_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "cse_ai_ml_hod"}
+                ]
+            },
+            {
+                "tag": "cse_data_science",
+                "questions": [
+                    "cse data science",
+                    "data science engineering",
+                    "about data science department",
+                    "data science course details"
+                ],
+                "response": [
+                    "The CSE (Data Science) department focuses on big data analytics, predictive modeling, and AI-driven data insights to meet the increasing demand for data professionals in various industries."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "cse_data_science_faculty"},
+                    {"text": "Department Laboratories", "tag": "cse_data_science_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "cse_data_science_hod"}
+                ]
+            },
+            {
+                "tag": "ece",
+                "questions": [
+                    "electronics and communication engineering",
+                    "ECE engineering",
+                    "about ECE department",
+                    "ECE course details"
+                ],
+                "response": [
+                    "The Electronics & Communication Engineering department provides education in embedded systems, signal processing, wireless communication, and VLSI design, preparing students for core industry roles."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "ece_faculty"},
+                    {"text": "Department Laboratories", "tag": "ece_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "ece_hod"}
+                ]
+            },
+            {
+                "tag": "eee",
+                "questions": [
+                    "electrical and electronics engineering",
+                    "EEE engineering",
+                    "about EEE department",
+                    "EEE course details"
+                ],
+                "response": [
+                    "The Electrical & Electronics Engineering department focuses on power systems, electrical machines, control systems, and renewable energy technologies."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "eee_faculty"},
+                    {"text": "Department Laboratories", "tag": "eee_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "eee_hod"}
+                ]
+            },
+            {
+                "tag": "ise",
+                "questions": [
+                    "information science and engineering",
+                    "ISE engineering",
+                    "about ISE department",
+                    "ISE course details"
+                ],
+                "response": [
+                    "The Information Science & Engineering department emphasizes data-driven technologies, software development, and IT security, equipping students for IT industry roles."
+                ],
+                "related": [
+                    {"text": "Department Faculty", "tag": "ise_faculty"},
+                    {"text": "Department Laboratories", "tag": "ise_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "ise_hod"}
+                ]
+            },
+            {
+                "tag": "architecture_faculty",
+                "questions": [
+                    "faculty of architecture",
+                    "architecture department faculty",
+                    "professors in architecture"
+                ],
+                "response": [
+                    "The Architecture department at BLDEACET is led by experienced faculty specializing in architectural design, planning, and urban development."
+                ],
+                "related": []
+            },
+            {
+                "tag": "civil_faculty",
+                "questions": [
+                    "faculty of civil",
+                    "civil department faculty",
+                    "professors in civil engineering"
+                ],
+                "response": [
+                    "The Civil Engineering department has highly qualified faculty members specializing in structural engineering, geotechnical engineering, and environmental engineering."
+                ],
+                "related": []
+            },
+            {
+                "tag": "ece_faculty",
+                "questions": [
+                    "faculty of ECE",
+                    "ECE department faculty",
+                    "professors in ECE"
+                ],
+                "response": [
+                    "Our ECE faculty includes experts in signal processing, VLSI design, and embedded systems. Learn more on our [Faculty Page](https://www.bldeacet.ac.in/faculty/)."
+                ],
+                "related": []
+            },
+            {
+                "tag": "ise_faculty",
+                "questions": [
+                    "faculty of ISE",
+                    "ISE department faculty",
+                    "professors in ISE"
+                ],
+                "response": [
+                    "The Information Science & Engineering department comprises experienced faculty members focused on software engineering, data analytics, and cybersecurity."
+                ],
+                "related": []
+            },
+            {
+                "tag": "cse_ai_ml_laboratories",
+                "questions": [
+                    "labs in AI & ML",
+                    "CSE AI & ML department labs",
+                    "facilities in AI & ML"
+                ],
+                "response": [
+                    "The AI & ML department provides specialized labs for deep learning, natural language processing, and AI-driven robotics."
+                ],
+                "related": []
+            },
+            {
+                "tag": "ece_laboratories",
+                "questions": [
+                    "labs in ECE",
+                    "ECE department labs",
+                    "facilities in ECE"
+                ],
+                "response": [
+                    "The ECE department has advanced labs for embedded systems, communication networks, and VLSI design."
+                ],
+                "related": []
+            },
+            {
+                "tag": "ise_laboratories",
+                "questions": [
+                    "labs in ISE",
+                    "ISE department labs",
+                    "facilities in ISE"
+                ],
+                "response": [
+                    "The ISE department features well-equipped labs for cybersecurity, database management, and cloud computing."
+                ],
+                "related": []
+            },
+            {
+                "tag": "cse_ai_ml_hod",
+                "questions": [
+                    "hod of aiml",
+                    "HOD of AIML",
+                    "AI & ML department head",
+                    "who is the AI & ML HOD"
+                ],
+                "response": [
+                    "The Head of the AI & ML Department is Dr.Sumangala Biradar."
+                ],
+                "related": []
+            },
+            {
+                "tag": "ece_hod",
+                "questions": [
+                    "hod of ece",
+                    "HOD of ECE",
+                    "ECE department head",
+                    "who is the ECE HOD"
+                ],
+                "response": [
+                    "The Head of the ECE Department is Dr.U.D. Dixit."
+                ],
+                "related": []
+            },
+             {
+                    "tag": "civil_hod",
+                    "questions": [
+                        "cicil hod",
+                        "who is the HOD of Civil ",
+                        "who is the HOD of Civil Engineering",
+                        "civil engineering HOD",
+                        "head of civil department",
+                        "civil HOD name",
+                        "civil department head"
+                    ],
+                    "response": [
+                        "The Head of the Civil Engineering Department at BLDEACET is Dr.Naveen N Desai."
+                    ],
+                    "related": []
+                },
+                {
+                    "tag": "ise_hod",
+                    "questions": [
+                        "ise hod",
+                        "who is the HOD of Information Science & Engineering?",
+                        "ISE department head",
+                        "head of ise department",
+                        "information science HOD",
+                        "HOD of ISE at BLDEACET"
+                    ],
+                    "response": [
+                        "The Head of the Information Science & Engineering Department at BLDEACET is Dr.Prakash H Unki."
+                    ],
+                    "related": []
+                },
+                {
+                    "tag": "eee_hod",
+                    "questions": [
+                        "who is the HOD of Electrical & Electronics Engineering?",
+                        "EEE department head",
+                        "head of eee department",
+                        "electrical engineering HOD",
+                        "HOD of EEE at BLDEACET"
+                    ],
+                    "response": [
+                        "The Head of the Electrical & Electronics Engineering Department at BLDEACET is Dr.A.S.Jadhav."
+                    ],
+                    "related": []
+                },
+                {
+                    "tag": "cse_data_science_hod",
+                    "questions": [
+                        "who is the HOD of CSE (Data Science)?",
+                        "cse data science HOD",
+                        "head of cse ds department",
+                        "cse ds department head",
+                        "data science HOD at BLDEACET"
+                    ],
+                    "response": [
+                        "The Head of the CSE (Data Science) Department at BLDEACET is Dr.Pushpa Patil."
+                    ],
+                    "related": []
+                },            
+            {
+                "tag": "mtech",
+                "questions": [
+                    "MTech programs",
+                    "postgraduate engineering courses",
+                    "what are the PG courses in BLDEACET"
+                ],
+                "response": [
+                    "BLDEACET offers M.Tech programs in various engineering disciplines. Students can specialize in cutting-edge domains and research areas."
+                ],
+                "related": [
+                    {"text": "M.Tech Civil Engineering", "tag": "mtech_civil"},
+                    {"text": "M.Tech Computer Science", "tag": "mtech_cse"},
+                    {"text": "M.Tech Digital Communication", "tag": "mtech_digital_comm"},
+                    {"text": "M.Tech Structural Engineering", "tag": "mtech_structural"},
+                    {"text": "Department Faculty", "tag": "pg_faculty"},
+                    {"text": "Department Laboratories", "tag": "pg_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "pg_hod"}
+                ]
+            },
+            {
+                "tag": "mtech_civil",
+                "questions": [
+                    "MTech in Civil Engineering",
+                    "PG Civil Engineering",
+                    "postgraduate civil course"
+                ],
+                "response": [
+                    "The M.Tech in Civil Engineering program at BLDEACET focuses on advanced topics in structural design, transportation engineering, and environmental sustainability."
+                ],
+                "related": []
+            },
+            {
+                "tag": "mtech_cse",
+                "questions": [
+                    "MTech in Computer Science",
+                    "PG Computer Science",
+                    "postgraduate CS course"
+                ],
+                "response": [
+                    "The M.Tech in Computer Science & Engineering program provides specialized knowledge in artificial intelligence, cloud computing, and advanced algorithms."
+                ],
+                "related": []
+            },
+            {
+                "tag": "mtech_digital_comm",
+                "questions": [
+                    "MTech in Digital Communication",
+                    "PG Digital Communication",
+                    "postgraduate communication course"
+                ],
+                "response": [
+                    "The M.Tech in Digital Communication program focuses on signal processing, wireless networks, and communication protocols."
+                ],
+                "related": []
+            },
+            {
+                "tag": "mtech_structural",
+                "questions": [
+                    "MTech in Structural Engineering",
+                    "PG Structural Engineering",
+                    "postgraduate structural course"
+                ],
+                "response": [
+                    "The M.Tech in Structural Engineering program provides expertise in seismic analysis, advanced materials, and construction management."
+                ],
+                "related": []
+            },
+            {
+                "tag": "pg_faculty",
+                "questions": [
+                    "faculty of PG courses",
+                    "postgraduate faculty",
+                    "who teaches in PG courses"
+                ],
+                "response": [
+                    "BLDEACET’s postgraduate courses are led by expert faculty specializing in research and advanced engineering topics."
+                ],
+                "related": []
+            },
+            {
+                "tag": "pg_laboratories",
+                "questions": [
+                    "PG labs",
+                    "facilities in PG courses",
+                    "postgraduate department labs"
+                ],
+                "response": [
+                    "Our postgraduate departments are equipped with advanced research labs for specialized studies in engineering disciplines."
+                ],
+                "related": []
+            },
+            {
+                "tag": "pg_hod",
+                "questions": [
+                    "HOD of PG courses",
+                    "postgraduate department head",
+                    "who is the HOD for PG courses"
+                ],
+                "response": [
+                    "The postgraduate programs at BLDEACET are managed by highly experienced HODs. Visit the [HOD Page](https://www.bldeacet.ac.in/hod/)."
+                ],
+                "related": []
+            },
+            {
+                "tag": "basic_science",
+                "questions": [
+                    "Basic Science courses",
+                    "foundation courses in BLDEACET",
+                    "science department details"
+                ],
+                "response": [
+                    "BLDEACET offers Basic Science courses in Mathematics, Physics, Chemistry, and Humanities to build a strong foundation for engineering students."
+                ],
+                "related": [
+                    {"text": "Mathematics Department", "tag": "maths_department"},
+                    {"text": "Physics Department", "tag": "physics_department"},
+                    {"text": "Chemistry Department", "tag": "chemistry_department"},
+                    {"text": "Humanities Department", "tag": "humanities_department"},
+                    {"text": "Department Faculty", "tag": "basic_science_faculty"},
+                    {"text": "Department Laboratories", "tag": "basic_science_laboratories"},
+                    {"text": "Head of Department (HOD)", "tag": "basic_science_hod"}
+                ]
+            },
+            {
+                "tag": "maths_department",
+                "questions": [
+                    "Mathematics department",
+                    "maths courses in BLDEACET",
+                    "foundation maths courses"
+                ],
+                "response": [
+                    "The Mathematics department provides essential courses in engineering mathematics, applied calculus, and computational techniques."
+                ],
+                "related": []
+            },
+            {
+                "tag": "physics_department",
+                "questions": [
+                    "Physics department",
+                    "physics courses in BLDEACET",
+                    "foundation physics courses"
+                ],
+                "response": [
+                    "The Physics department offers fundamental and applied physics courses, enabling students to understand core scientific principles in engineering."
+                ],
+                "related": []
+            },
+            {
+                "tag": "chemistry_department",
+                "questions": [
+                    "Chemistry department",
+                    "chemistry courses in BLDEACET",
+                    "foundation chemistry courses"
+                ],
+                "response": [
+                    "The Chemistry department provides a strong foundation in applied chemistry and material sciences essential for engineering applications."
+                ],
+                "related": []
+            },
+            {
+                "tag": "humanities_department",
+                "questions": [
+                    "Humanities department",
+                    "humanities courses in BLDEACET",
+                    "foundation humanities courses"
+                ],
+                "response": [
+                    "The Humanities department focuses on communication skills, ethics, and management principles to enhance students' overall development."
+                ],
+                "related": []
+            },
+            {
+                "tag": "basic_science_faculty",
+                "questions": [
+                    "faculty of Basic Science",
+                    "who teaches in science department",
+                    "Basic Science professors"
+                ],
+                "response": [
+                    "BLDEACET’s Basic Science courses are taught by highly qualified faculty specializing in Mathematics, Physics, Chemistry, and Humanities."
+                ],
+                "related": []
+            },
+            {
+                "tag": "basic_science_laboratories",
+                "questions": [
+                    "Basic Science labs",
+                    "facilities in Basic Science",
+                    "science department labs"
+                ],
+                "response": [
+                    "Our Basic Science departments are equipped with state-of-the-art laboratories for experiments in Physics, Chemistry, and applied sciences."
+                ],
+                "related": []
+            },
+            {
+                "tag": "basic_science_hod",
+                "questions": [
+                    "HOD of Basic Science",
+                    "science department head",
+                    "who is the HOD for Basic Science"
+                ],
+                "response": [
+                    "The Basic Science department is led by experienced HODs specializing in foundational sciences and engineering applications. Visit the [HOD Page](https://www.bldeacet.ac.in/hod/)."
+                ],
+                "related": []
+            },
+            {
+            "tag": "no_intent",
+    "questions": [
+        "qwerty",
+        "abcd",
+        "random text",
+        "???",
+        "xyz",
+        "tell me a joke",
+        "undefined",
+        "blah blah",
+        "lorem ipsum",
+        "random question",
+        "askjdhaksd",
+        "unknown request",
+        ""
+    ],
+    "response": [
+        "🤖 Sorry, I couldn't understand your request. Please visit our official website for more details: [BLDEACET Website](https://www.bldeacet.ac.in).",
+        "I'm not sure what you're asking. You can explore more about BLDEACET here: [BLDEACET Official Website](https://www.bldeacet.ac.in).",
+        "I'm sorry, I couldn't recognize that query. For accurate information, visit: [BLDEACET Website](https://www.bldeacet.ac.in)."
+    ],
+    "related": [
+        {
+            "text": "About College",
+            "tag": "about_college"
+        },
+        {
+            "text": "Contact",
+            "tag": "contact_information"
+        },
+        {
+            "text": "Courses Offered",
+            "tag": "courses"
+        },
+        {
+            "text": "Admission Enquiry",
+            "tag": "admission_enquiry"
+        },
+        {
+            "text": "Principal",
+            "tag": "principal"
+        },
+        {
+            "text": "President",
+            "tag": "president"
+        }
+    ]
     }
-   ]
+]

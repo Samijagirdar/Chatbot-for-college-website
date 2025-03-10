@@ -2,19 +2,34 @@
  {
   "intent": "welcomegreeting",
   "questions": [
-   "hii",
    "hi",
    "hello",
+   "hey",
+   "hii",
    "helo",
+   "good morning",
+   "good afternoon",
+   "good evening",
    "help",
-   "please",
-   "guide me"
+   "please help",
+   "can you guide me",
+   "i need info",
+   "assist me",
+   "need guidance"
   ]
  },
  {
   "intent": "about_college",
   "questions": [
    "about college",
+   "tell me about the college",
+   "give me details",
+   "college overview",
+   "history of BLDEACET",
+   "is BLDEACET a good college",
+   "rankings",
+   "why choose BLDEACET",
+   "campus life at BLDEACET",
    "about",
    "college",
    "about clg",
@@ -28,34 +43,28 @@
  {
   "intent": "student_strength",
   "questions": [
+   "strength",
+   "student strength",
+   "how many students are there",
+   "student count",
+   "total enrollment",
+   "yearly intake",
    "strength of students",
    "number of students in college",
    "strength of college",
-   "strength of students in college",
    "how many students are there in college",
    "total students",
-   "total strength",
-   "total student",
-   "tatal"
-  ]
- },
- {
-  "intent": "campus_visit",
-  "questions": [
-   "campus",
-   "campus visit",
-   "visit",
-   "clg visit",
-   "college visit",
-   "college campus visit",
-   " ",
-   "when can i visit college",
-   "when can i visit campus"
+   "total strength"
   ]
  },
  {
   "intent": "address",
   "questions": [
+   "address",
+   "where is BLDEACET",
+   "how to reach BLDEACET",
+   "BLDEACET location",
+   "pin code of BLDEACET",
    "address of college",
    "college address",
    "clg address",
@@ -65,544 +74,780 @@
   ]
  },
  {
-   "intent": "principal",
-   "questions": [
-    "principal of college",
-    "college principal",
-    "clg principal",
-    "principal",
-    "who is principal of college"
-   ]
-  },
-  {
-   "intent": "principal_msg",
-   "questions": [
-    "message of principal of college",
-    "college principal message",
-    "clg principal message",
-    "principal message",
-    "what is message of principal of college"
-   ]
-  },
-  {
-   "intent": "president",
-   "questions": [
-    "president of college",
-    "college president",
-    "clg president",
-    "president",
-    "who is president of college"
-   ]
-  },
-  {
-   "intent": "president_msg",
-   "questions": [
-    "message of president of college",
-    "college president message",
-    "clg president message",
-    "president message",
-    "what is message of president of college"
-   ]
-  },  
- {
-  "intent": "visit_hours",
-  "questions": [
-   "visiting time",
-   "visit hours",
-   "time of visit"
-  ]
- },
- {
-  "intent": "contact",
+  "intent": "contact_information",
   "questions": [
    "contact",
-   "contact number",
-   "number",
-   "college number",
-   "phone number",
+   "how to contact BLDEACET",
+   "helpline number",
+   "official contact details",
+   "who to contact for admission",
+   "contact details",
    "college phone number",
-   "how to contact",
-   "contact college",
-   "contact clg",
-   "number"
+   "email address",
+   "how to reach college"
   ]
  },
  {
-  "intent": "course",
+  "intent": "principal",
   "questions": [
-   "courses",
-   "course",
-   "course offered",
-   "course in college",
-   "which courses are available",
-   "available courses",
-   "engineering"
+   "principal",
+   "principle",
+   "principal of college",
+   "principle of college",
+   "who is the principal",
+   "principal of BLDEACET",
+   "college head",
+   "academic head of college",
+   "who is the principal of the college",
+   "college principal",
+   "principal of BLDEACET"
   ]
  },
  {
-    "intent": "undergraduate",
-    "questions": [
-        "ug",
-     "courses",
-     "course",
-     "course offered",
-     "course in college",
-     "which courses are available for ug",
-     "available courses for ug",
-     "undergraduate"
-    ]
-   },
-   {
-    "intent": "postgraduate",
-    "questions": [
-     "pg",   
-     "courses",
-     "course",
-     "course offered",
-     "course in college",
-     "which courses are available for pg",
-     "available courses",
-     "postgraduate"
-    ]
-   },
-   {
-    "intent": "basic_science",
-    "questions": [
-        "basic science",
-     "courses",
-     "course",
-     "course offered",
-     "course in college",
-     "which courses are available for basic science",
-     "available courses for basic science",
-     "basic science"
-    ]
-   },
- {
-  "intent": "computer_engineering",
+  "intent": "president",
   "questions": [
-   "computer engineering",
-   "computer engg",
-   "computer"
+   "president",
+   "president of college",
+   "who is the president of the college",
+   "college president",
+   "president of BLDEACET",
+   "who is the president",
+   "president of BLDEACET",
+   "name of president",
+   "college authority head",
+   "BLDE Association head"
   ]
  },
  {
-  "intent": "computer_intake",
+  "intent": "placements",
   "questions": [
-   "computer intake",
-   "computer engineering intake",
-   "computer seats",
-   "seats in computer"
+   "placement statistics",
+   "campus recruitment",
+   "placement record",
+   "which companies visit for placements",
+   "placement details",
+   "does BLDEACET provide placements",
+   "top recruiters",
+   "highest package",
+   "placement percentage",
+   "internship opportunities"
   ]
  },
  {
-  "intent": "computer_first",
+  "intent": "research",
   "questions": [
-   "computer first year",
-   "FE computer",
-   "computer FE",
-   "computer engineering first year"
+   "research opportunities",
+   "ongoing research projects",
+   "funded research programs"
   ]
  },
  {
-  "intent": "computer_dsy",
+  "intent": "library",
   "questions": [
-   "computer dsy",
-   "dsy computer"
+   "library",
+   "library facilities",
+   "books available",
+   "digital library",
+   "library details",
+   "is there a library",
+   "library membership",
+   "library timings",
+   "can I borrow books"
   ]
  },
  {
-  "intent": "computer_fee",
+  "intent": "hostel",
   "questions": [
-   "computer fee",
-   "fee of computer engineering",
-   "fee for computer engg",
-   "computer engg fee",
-   "open fee",
-   "OBC fee",
-   "sc fee",
-   "st fee"
+   "hostel",
+   "hostel facilities",
+   "student accommodation",
+   "is there hostel for students",
+   "is hostel available",
+   "hostel fees",
+   "hostel rules",
+   "hostel accommodation",
+   "hostel food",
+   "is hostel mandatory",
+   "wifi in hostel"
   ]
  },
  {
-  "intent": "open_fee",
+  "intent": "sports",
   "questions": [
-   "Open fees",
-   "fees of open category",
-   "open category fee",
-   "open fee"
+   "sports activities",
+   "games in college",
+   "does BLDEACET have sports facilities",
+   "sports facilities",
+   "which games are available",
+   "is there a gym",
+   "indoor sports",
+   "outdoor sports",
+   "basketball court",
+   "cricket ground",
+   "badminton court"
   ]
  },
  {
-  "intent": "obc_fee",
+  "intent": "events",
   "questions": [
-   "obc fees",
-   "obc fee",
-   "fee of obc category",
-   "obc category fees"
-  ]
- },
- {
-  "intent": "scst_fee",
-  "questions": [
-   "scst fees",
-   "sc fee",
-   "st fee",
-   "sc fees",
-   "st fees",
-   "fees of sc st caste",
-   "fee of sc caste",
-   "fee of st caste"
-  ]
- },
- {
-  "intent": "computer_criteria",
-  "questions": [
-   "Eligibility criteria",
-   "computer eligibility criteria",
-   "admisssion criteria",
-   "minimum marks for admission",
-   "minimum marks required",
-   "eligibility criteria"
-  ]
- },
- {
-  "intent": "computer_duration",
-  "questions": [
-   "computer duration",
-   "computer engineering duration",
-   "computer engg duration"
-  ]
- },
- {
-  "intent": "mechanical_engineering",
-  "questions": [
-   "mechanical engineering",
-   "mechanical engg",
-   "mechanical"
-  ]
- },
- {
-  "intent": "mechanical_intake",
-  "questions": [
-   "mechanical intake",
-   "mechanical engineering intake",
-   "mechanical seats",
-   "seats in mechanical"
-  ]
- },
- {
-  "intent": "mechanical_first",
-  "questions": [
-   "mechanical first year",
-   "FE mechanical",
-   "mechanical FE",
-   "mechanical engineering first year"
-  ]
- },
- {
-  "intent": "mechanical_dsy",
-  "questions": [
-   "mechanical dsy",
-   "dsy mechanical"
-  ]
- },
- {
-  "intent": "mechanical_fee",
-  "questions": [
-   "mechanical fee",
-   "fee of mechanical engineering",
-   "fee for mechanical engg",
-   "mechanical engg fee",
-   "open fee",
-   "OBC fee",
-   "sc fee",
-   "st fee"
-  ]
- },
- {
-  "intent": "mechanical_criteria",
-  "questions": [
-   "Eligibility criteria",
-   "mechanical eligibility criteria",
-   "admisssion criteria",
-   "minimum marks for admission",
-   "minimum marks required",
-   "eligibility criteria"
-  ]
- },
- {
-  "intent": "mechanical_duration",
-  "questions": [
-   "mechanical duration",
-   "mechanical engineering duration",
-   "mechanical engg duration"
-  ]
- },
- {
-  "intent": "civil_engineering",
-  "questions": [
-   "civil engineering",
-   "civil engg",
-   "civil"
-  ]
- },
- {
-  "intent": "civil_intake",
-  "questions": [
-   "civil intake",
-   "civil engineering intake",
-   "civil seats",
-   "seats in civil"
-  ]
- },
- {
-  "intent": "civil_first",
-  "questions": [
-   "civil first year",
-   "FE civil",
-   "civil FE",
-   "civil engineering first year"
-  ]
- },
- {
-  "intent": "civil_dsy",
-  "questions": [
-   "civil dsy",
-   "dsy civil"
-  ]
- },
- {
-  "intent": "civil_fee",
-  "questions": [
-   "civil fee",
-   "fee of civil engineering",
-   "fee for civil engg",
-   "civil engg fee",
-   "open fee",
-   "OBC fee",
-   "sc fee",
-   "st fee"
-  ]
- },
- {
-  "intent": "civil_criteria",
-  "questions": [
-   "Eligibility criteria",
-   "civil eligibility criteria",
-   "admisssion criteria",
-   "minimum marks for admission",
-   "minimum marks required",
-   "eligibility criteria"
-  ]
- },
- {
-  "intent": "civil_duration",
-  "questions": [
-   "civil duration",
-   "civil engineering duration",
-   "civil engg duration"
-  ]
- },
- {
-  "intent": "electrical_engineering",
-  "questions": [
-   "electrical engineering",
-   "electrical engg",
-   "electrical"
-  ]
- },
- {
-  "intent": "electrical_intake",
-  "questions": [
-   "electrical intake",
-   "electrical engineering intake",
-   "electrical seats",
-   "seats in electrical"
-  ]
- },
- {
-  "intent": "electrical_first",
-  "questions": [
-   "electrical first year",
-   "FE electrical",
-   "electrical FE",
-   "electrical engineering first year"
-  ]
- },
- {
-  "intent": "electrical_dsy",
-  "questions": [
-   "electrical dsy",
-   "dsy electrical"
-  ]
- },
- {
-  "intent": "electrical_fee",
-  "questions": [
-   "electrical fee",
-   "fee of electrical engineering",
-   "fee for electrical engg",
-   "electrical engg fee",
-   "open fee",
-   "OBC fee",
-   "sc fee",
-   "st fee"
-  ]
- },
- {
-  "intent": "electrical_criteria",
-  "questions": [
-   "Eligibility criteria",
-   "electrical eligibility criteria",
-   "admisssion criteria",
-   "minimum marks for admission",
-   "minimum marks required",
-   "eligibility criteria"
-  ]
- },
- {
-  "intent": "electrical_duration",
-  "questions": [
-   "electrical duration",
-   "electrical engineering duration",
-   "electrical engg duration"
-  ]
- },
- {
-  "intent": "ai&ds_engineering",
-  "questions": [
-   "ai&ds engineering",
-   "ai&ds engg",
-   "ai&ds",
-   "aids",
-   "ai",
-   "ds",
-   "artificial intelligence",
-   "data science",
-   "artificial intelligence and data science"
-  ]
- },
- {
-  "intent": "ai&ds_intake",
-  "questions": [
-   "ai&ds intake",
-   "ai&ds engineering intake",
-   "ai&ds seats",
-   "seats in ai&ds",
-   "aids intake",
-   "aids engineering intake",
-   "aids seats",
-   "seats in aids",
-   "ai seats",
-   "ds seats",
-   "artificial intelligence seats",
-   "artificial intelligence intake",
-   "data science intake",
-   "data science seats",
-   "artificial intelligence and data science intake"
-  ]
- },
- {
-  "intent": "ai&ds_first",
-  "questions": [
-   "ai&ds first year",
-   "FE ai&ds",
-   "ai&ds FE",
-   "ai&ds first year",
-   "aids first year",
-   "FE aids",
-   "aids FE",
-   "aids first year"
-  ]
- },
- {
-  "intent": "ai&ds_dsy",
-  "questions": [
-   "ai&ds dsy",
-   "dsy ai&ds"
-  ]
- },
- {
-  "intent": "ai&ds_fee",
-  "questions": [
-   "ai&ds fee",
-   "fee of ai&ds",
-   "fee for ai&ds",
-   "aids fee",
-   "fee of aids",
-   "fee for aids",
-   "aids fee",
-   "open fee",
-   "OBC fee",
-   "sc fee",
-   "st fee"
-  ]
- },
- {
-  "intent": "ai&ds_criteria",
-  "questions": [
-   "Eligibility criteria",
-   "ai&ds eligibility criteria",
-   "aids eligibility criteria",
-   "admisssion criteria",
-   "minimum marks for admission",
-   "minimum marks required",
-   "eligibility criteria"
-  ]
- },
- {
-  "intent": "ai&ds_duration",
-  "questions": [
-   "ai&ds duration",
-   "ai&ds duration",
-   "ai&ds duration",
-   "aids duration",
-   "aids duration",
-   "aids duration"
+   "college events",
+   "upcoming seminars",
+   "technical fests",
+   "cultural events",
+   "annual function",
+   "competitions in college",
+   "workshops in BLDEACET"
   ]
  },
  {
   "intent": "admission_enquiry",
   "questions": [
    "admission",
+   "admission criteria",
+   "admssion enquiry",
    "admission process",
-   "admission inquiry",
-   "admission enquiry",
-   "admission date",
-   "admission last date",
-   "admission time",
-   "cse admission",
-   "fees of cse",
-   "What is fees of cse"
+   "how to apply",
+   "eligibility for admission",
+   "last date for admission",
+   "documents required",
+   "entrance exam",
+   "direct admission",
+   "admission fees"
   ]
  },
  {
-  "intent": "scholorship",
+  "intent": "fees",
   "questions": [
-   "scholorship",
-   "college scholorship",
-   "scholorship fees",
-   "scholorship date",
-   "scholorship form",
-   "scholorship contact",
-   "scholorship amount"
+   "fees structure",
+   "tuition fees",
+   "how much is the college fee",
+   "hostel fee",
+   "exam fees",
+   "semester fee",
+   "scholarship for fees",
+   "college fees",
+   "fees"
   ]
  },
  {
-  "intent": "endgreeting",
+  "intent": "scholarship",
   "questions": [
-   "bye",
-   "by",
-   "byee"
+   "scholarship details",
+   "financial aid",
+   "government scholarships",
+   "private scholarships",
+   "eligibility for scholarships",
+   "how to apply for scholarship",
+   "scholarship",
+   "scholarship options"
   ]
  },
  {
-  "intent": "thankgreet",
+  "intent": "faculty",
   "questions": [
-   "thankyou",
-   "thanks",
-   "thank you"
+   "faculty list",
+   "who are the professors",
+   "teaching experience",
+   "departments and faculty",
+   "professor qualifications",
+   "how many teachers in BLDEACET",
+   "teachers",
+   "professors"
+  ]
+ },
+ {
+  "intent": "transportation",
+  "questions": [
+   "transportation facilities",
+   "bus facility for students",
+   "college bus routes",
+   "nearest railway station",
+   "how to travel to BLDEACET",
+   "bus",
+   "college bus",
+   "auto",
+   "train",
+   "travel"
+  ]
+ },
+ {
+  "intent": "canteen",
+  "questions": [
+   "canteen",
+   "canteen facilities",
+   "is there a cafeteria",
+   "what food is available",
+   "canteen timings",
+   "is outside food allowed",
+   "canteen cleanliness"
+  ]
+ },
+ {
+  "intent": "internships",
+  "questions": [
+   "internships",
+   "internship opportunities",
+   "does BLDEACET offer internships",
+   "internship support",
+   "eligibility for internships",
+   "how to apply for internships"
+  ]
+ },
+ {
+  "intent": "exam_schedule",
+  "questions": [
+   "exam schedule",
+   "exam dates",
+   "when are exams",
+   "semester exams",
+   "exam timetable",
+   "final exams"
+  ]
+ },
+ {
+  "intent": "course_duration",
+  "questions": [
+   "duration",
+   "be how many year",
+   "mtech how many years",
+   "mba how many years",
+   "how many years",
+   "course duration",
+   "how long is the course",
+   "degree duration",
+   "btech course duration",
+   "postgraduate course duration"
+  ]
+ },
+ {
+  "intent": "degree_certificate",
+  "questions": [
+   "degree",
+   "degree certificate",
+   "when will I receive my degree",
+   "how to apply for degree certificate",
+   "duplicate degree request",
+   "convocation ceremony details"
+  ]
+ },
+ {
+  "intent": "student_clubs",
+  "questions": [
+   "student clubs",
+   "extracurricular activities",
+   "does BLDEACET have clubs",
+   "which student clubs are there",
+   "can I join multiple clubs",
+   "student societies"
+  ]
+ },
+ {
+  "intent": "ragging_policy",
+  "questions": [
+   "ragging",
+   "anti ragging",
+   "ragging policy",
+   "is ragging allowed",
+   "anti-ragging measures",
+   "reporting ragging",
+   "how to file a ragging complaint"
+  ]
+ },
+ {
+  "intent": "medical_facilities",
+  "questions": [
+   "medical facilities",
+   "medical facilities in college",
+   "is there a health center",
+   "emergency medical services",
+   "first aid available",
+   "student health insurance"
+  ]
+ },
+ {
+  "intent": "career_guidance",
+  "questions": [
+   "career guidance",
+   "job assistance",
+   "does the college provide career counseling",
+   "how to get job support",
+   "career mentorship programs"
+  ]
+ },
+ {
+  "intent": "study_material",
+  "questions": [
+   "study material",
+   "where to get notes",
+   "are there online lectures",
+   "e-books for courses",
+   "can I get previous year question papers"
+  ]
+ },
+ {
+  "intent": "grievance_redressal",
+  "questions": [
+   "grievance redressal",
+   "how to file a complaint",
+   "student grievances",
+   "who to contact for complaints",
+   "how does the grievance cell work"
+  ]
+ },
+ {
+  "intent": "lost_and_found",
+  "questions": [
+   "lost and found",
+   "I lost something in college",
+   "where to report lost items",
+   "how to retrieve lost belongings",
+   "what to do if I lose my ID card"
+  ]
+ },
+ {
+  "intent": "principal_message",
+  "questions": [
+   "principal message",
+   "message from the principal",
+   "principal's address",
+   "note from the principal"
+  ]
+ },
+ {
+  "intent": "president_message",
+  "questions": [
+   "president message",
+   "message from the president",
+   "president's address",
+   "note from the president"
+  ]
+ },
+ {
+  "intent": "courses",
+  "questions": [
+   "what courses are offered",
+   "list of courses",
+   "which courses are available",
+   "programs offered",
+   "engineering courses",
+   "courses at BLDEACET",
+   "what courses do you have"
+  ]
+ },
+ {
+  "intent": "undergraduate_programs",
+  "questions": [
+   "undergraduate courses",
+   "UG programs",
+   "list of UG courses",
+   "bachelor's degree programs"
+  ]
+ },
+ {
+  "intent": "postgraduate_programs",
+  "questions": [
+   "postgraduate courses",
+   "PG programs",
+   "list of PG courses",
+   "master's degree programs"
+  ]
+ },
+ {
+  "intent": "basic_science_departments",
+  "questions": [
+   "basic science departments",
+   "science courses",
+   "foundation courses",
+   "departments in basic sciences"
+  ]
+ },
+ {
+  "intent": "cse",
+  "questions": [
+   "computer science engineering",
+   "cse",
+   "computer engineering",
+   "about CSE department"
+  ]
+ },
+ {
+  "intent": "cse_faculty",
+  "questions": [
+   "faculty of CSE",
+   "CSE department faculty",
+   "professors in CSE"
+  ]
+ },
+ {
+  "intent": "cse_laboratories",
+  "questions": [
+   "labs in CSE",
+   "CSE department labs",
+   "facilities in CSE"
+  ]
+ },
+ {
+  "intent": "cse_hod",
+  "questions": [
+   "HOD of CSE",
+   "CSE department head",
+   "who is the CSE HOD"
+  ]
+ },
+ {
+  "intent": "mechanical_engineering",
+  "questions": [
+   "mechanical engineering",
+   "about mechanical department",
+   "mechanical course details"
+  ]
+ },
+ {
+  "intent": "mechanical_faculty",
+  "questions": [
+   "faculty of Mechanical",
+   "Mechanical department faculty",
+   "professors in Mechanical"
+  ]
+ },
+ {
+  "intent": "mechanical_laboratories",
+  "questions": [
+   "labs in Mechanical",
+   "Mechanical department labs",
+   "facilities in Mechanical"
+  ]
+ },
+ {
+  "intent": "mechanical_hod",
+  "questions": [
+   "HOD of Mechanical",
+   "Mechanical department head",
+   "who is the Mechanical HOD"
+  ]
+ },
+ {
+  "intent": "architecture",
+  "questions": [
+   "architecture engineering",
+   "about architecture department",
+   "architecture course details"
+  ]
+ },
+ {
+  "intent": "civil_engineering",
+  "questions": [
+   "civil engineering",
+   "about civil department",
+   "civil course details"
+  ]
+ },
+ {
+  "intent": "cse_ai_ml",
+  "questions": [
+   "cse artificial intelligence",
+   "AI & ML engineering",
+   "about AI & ML department",
+   "AI course details"
+  ]
+ },
+ {
+  "intent": "cse_data_science",
+  "questions": [
+   "cse data science",
+   "data science engineering",
+   "about data science department",
+   "data science course details"
+  ]
+ },
+ {
+  "intent": "ece",
+  "questions": [
+   "electronics and communication engineering",
+   "ECE engineering",
+   "about ECE department",
+   "ECE course details"
+  ]
+ },
+ {
+  "intent": "eee",
+  "questions": [
+   "electrical and electronics engineering",
+   "EEE engineering",
+   "about EEE department",
+   "EEE course details"
+  ]
+ },
+ {
+  "intent": "ise",
+  "questions": [
+   "information science and engineering",
+   "ISE engineering",
+   "about ISE department",
+   "ISE course details"
+  ]
+ },
+ {
+  "intent": "architecture_faculty",
+  "questions": [
+   "faculty of architecture",
+   "architecture department faculty",
+   "professors in architecture"
+  ]
+ },
+ {
+  "intent": "civil_faculty",
+  "questions": [
+   "faculty of civil",
+   "civil department faculty",
+   "professors in civil engineering"
+  ]
+ },
+ {
+  "intent": "ece_faculty",
+  "questions": [
+   "faculty of ECE",
+   "ECE department faculty",
+   "professors in ECE"
+  ]
+ },
+ {
+  "intent": "ise_faculty",
+  "questions": [
+   "faculty of ISE",
+   "ISE department faculty",
+   "professors in ISE"
+  ]
+ },
+ {
+  "intent": "cse_ai_ml_laboratories",
+  "questions": [
+   "labs in AI & ML",
+   "CSE AI & ML department labs",
+   "facilities in AI & ML"
+  ]
+ },
+ {
+  "intent": "ece_laboratories",
+  "questions": [
+   "labs in ECE",
+   "ECE department labs",
+   "facilities in ECE"
+  ]
+ },
+ {
+  "intent": "ise_laboratories",
+  "questions": [
+   "labs in ISE",
+   "ISE department labs",
+   "facilities in ISE"
+  ]
+ },
+ {
+  "intent": "cse_ai_ml_hod",
+  "questions": [
+   "hod of aiml",
+   "HOD of AIML",
+   "AI & ML department head",
+   "who is the AI & ML HOD"
+  ]
+ },
+ {
+  "intent": "ece_hod",
+  "questions": [
+   "hod of ece",
+   "HOD of ECE",
+   "ECE department head",
+   "who is the ECE HOD"
+  ]
+ },
+ {
+  "intent": "civil_hod",
+  "questions": [
+   "cicil hod",
+   "who is the HOD of Civil ",
+   "who is the HOD of Civil Engineering",
+   "civil engineering HOD",
+   "head of civil department",
+   "civil HOD name",
+   "civil department head"
+  ]
+ },
+ {
+  "intent": "ise_hod",
+  "questions": [
+   "ise hod",
+   "who is the HOD of Information Science & Engineering?",
+   "ISE department head",
+   "head of ise department",
+   "information science HOD",
+   "HOD of ISE at BLDEACET"
+  ]
+ },
+ {
+  "intent": "eee_hod",
+  "questions": [
+   "who is the HOD of Electrical & Electronics Engineering?",
+   "EEE department head",
+   "head of eee department",
+   "electrical engineering HOD",
+   "HOD of EEE at BLDEACET"
+  ]
+ },
+ {
+  "intent": "cse_data_science_hod",
+  "questions": [
+   "who is the HOD of CSE (Data Science)?",
+   "cse data science HOD",
+   "head of cse ds department",
+   "cse ds department head",
+   "data science HOD at BLDEACET"
+  ]
+ },
+ {
+  "intent": "mtech",
+  "questions": [
+   "MTech programs",
+   "postgraduate engineering courses",
+   "what are the PG courses in BLDEACET"
+  ]
+ },
+ {
+  "intent": "mtech_civil",
+  "questions": [
+   "MTech in Civil Engineering",
+   "PG Civil Engineering",
+   "postgraduate civil course"
+  ]
+ },
+ {
+  "intent": "mtech_cse",
+  "questions": [
+   "MTech in Computer Science",
+   "PG Computer Science",
+   "postgraduate CS course"
+  ]
+ },
+ {
+  "intent": "mtech_digital_comm",
+  "questions": [
+   "MTech in Digital Communication",
+   "PG Digital Communication",
+   "postgraduate communication course"
+  ]
+ },
+ {
+  "intent": "mtech_structural",
+  "questions": [
+   "MTech in Structural Engineering",
+   "PG Structural Engineering",
+   "postgraduate structural course"
+  ]
+ },
+ {
+  "intent": "pg_faculty",
+  "questions": [
+   "faculty of PG courses",
+   "postgraduate faculty",
+   "who teaches in PG courses"
+  ]
+ },
+ {
+  "intent": "pg_laboratories",
+  "questions": [
+   "PG labs",
+   "facilities in PG courses",
+   "postgraduate department labs"
+  ]
+ },
+ {
+  "intent": "pg_hod",
+  "questions": [
+   "HOD of PG courses",
+   "postgraduate department head",
+   "who is the HOD for PG courses"
+  ]
+ },
+ {
+  "intent": "basic_science",
+  "questions": [
+   "Basic Science courses",
+   "foundation courses in BLDEACET",
+   "science department details"
+  ]
+ },
+ {
+  "intent": "maths_department",
+  "questions": [
+   "Mathematics department",
+   "maths courses in BLDEACET",
+   "foundation maths courses"
+  ]
+ },
+ {
+  "intent": "physics_department",
+  "questions": [
+   "Physics department",
+   "physics courses in BLDEACET",
+   "foundation physics courses"
+  ]
+ },
+ {
+  "intent": "chemistry_department",
+  "questions": [
+   "Chemistry department",
+   "chemistry courses in BLDEACET",
+   "foundation chemistry courses"
+  ]
+ },
+ {
+  "intent": "humanities_department",
+  "questions": [
+   "Humanities department",
+   "humanities courses in BLDEACET",
+   "foundation humanities courses"
+  ]
+ },
+ {
+  "intent": "basic_science_faculty",
+  "questions": [
+   "faculty of Basic Science",
+   "who teaches in science department",
+   "Basic Science professors"
+  ]
+ },
+ {
+  "intent": "basic_science_laboratories",
+  "questions": [
+   "Basic Science labs",
+   "facilities in Basic Science",
+   "science department labs"
+  ]
+ },
+ {
+  "intent": "basic_science_hod",
+  "questions": [
+   "HOD of Basic Science",
+   "science department head",
+   "who is the HOD for Basic Science"
+  ]
+ },
+ {
+  "intent": "no_intent",
+  "questions": [
+   "qwerty",
+   "abcd",
+   "random text",
+   "???",
+   "xyz",
+   "tell me a joke",
+   "undefined",
+   "blah blah",
+   "lorem ipsum",
+   "random question",
+   "askjdhaksd",
+   "unknown request",
+   ""
   ]
  }
 ]
